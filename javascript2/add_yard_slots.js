@@ -12,9 +12,9 @@ function inits() {
   let endNum = 10;
   
 /*   WHSE = ST2
-  FID = 507 ;select whse, facility_id from facility where whse like '';
-  YID = 407 ;SELECT YARD_ID FROM YARD_ZONE_SLOT;
-  YZID = 465 ;SELECT YARD_ZONE_ID FROM YARD_ZONE_SLOT; */
+     FID = 507       ;select whse, facility_id from facility where whse like '';
+     YID = 407       ;SELECT YARD_ID FROM YARD_ZONE_SLOT;
+     YZID = 465       ;SELECT YARD_ZONE_ID FROM YARD_ZONE_SLOT; */
 
   $("#genForm").submit(function(e) {
       e.preventDefault();
@@ -28,6 +28,24 @@ function assignPlantVar() {
     plant = evt.target.id;
     assignVars(plant);
   });
+}
+
+function assignVars(plant) {
+  if (plant == "ABQ") {
+    FID = 436;
+    YID = 388;
+    YZID = 426;
+  }
+  else if (plant == "PHI") {
+    FID = 376;
+    YID = 328;
+    YZID = 342;
+  }
+  else  { //st2
+    FID = 507 
+    YID = 407 
+    YZID = 465
+  }
 }
 
 function generate() {
@@ -49,26 +67,6 @@ function generate() {
     }
   }
 }
-
-
-function assignVars(plant) {
-  if (plant == "ABQ") {
-    FID = 436;
-    YID = 388;
-    YZID = 426;
-    console.log(FID + " " + YID  + " " + YZID);
-  }
-  else if (plant == "PHI") {
-    FID = 376;
-    YID = 328;
-    YZID = 342;
-    console.log(FID + " " + YID  + " " + YZID);
-  }
-  else {
-    alert("You must pick a plant before generating SQL");
-  }
-}
-
 
 function funcStart() {
   inits();
