@@ -3,6 +3,7 @@ function inits() {
   let FID = 0;
   let YID = 0;
   let YZID = 0;
+  let strPrefix = "";
   let strLocationHDR = 0;
   
 /*   WHSE = ST2
@@ -47,9 +48,16 @@ function assignVars(plant) {
   }
 }
 
+function assignPrefix() {
+  $("#prefix").on('input', function() {
+    prefix = $('this').val();
+    consol.log(prefix);
+  });
+}
 
 function funcStart() {
   assignPlantVar();
+  assignPrefix();
   inits();
 }
 
