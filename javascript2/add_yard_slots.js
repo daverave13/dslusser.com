@@ -51,7 +51,7 @@ function
 
 function funcStart() {
   assignPlantVar();
-  inits();
+  //inits();
 }
 
 /*  Send, --%BRCD%{ENTER}
