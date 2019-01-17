@@ -16,6 +16,7 @@ function inits() {
   $("#genForm").submit(function(e) {
       e.preventDefault();
   });
+  console.log("inits are inited");
 }
 
 
@@ -56,8 +57,9 @@ function assignVars(plant) {
 
 
 function funcStart() {
-  assignPlantVar();
   inits();
+  assignPlantVar();
+  
 }
 
 /*  Send, --%BRCD%{ENTER}
