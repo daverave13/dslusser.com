@@ -1,5 +1,5 @@
 function inits() {
-  let plant = "";
+  let plant = -1;
   let FID = 0;
   let YID = 0;
   let YZID = 0;
@@ -108,7 +108,7 @@ function generate() {
   $("#genTarget").html("");
   alert(plant);
   prefix = $('#prefix').val();
-  if (plant == "") {
+  if (plant < 0) {
     alert('Please select a plant from the dropdown first.');
   }
   else {
