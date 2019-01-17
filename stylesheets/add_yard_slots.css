@@ -41,5 +41,6 @@
 #genForm {
     display: flex;
     flex-direction: column;
+    align-items: start;
     justify-content: space-around;
 }
