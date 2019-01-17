@@ -100,7 +100,10 @@ function assignPrefix() {
   $("#prefix").keyup( function () {
     //console.log("inputed");
     
-    $("#brcd-preview").html("Display Location Preview: " + $("#prefix").val() + "##");
+    $("#brcd-preview").html("Display Location Preview: " + $("#prefix").val());
+  });
+  $("#startNum").keyUp( function () {
+    $("#brcd-preview").append($("#startNum").val());
   });
 }
 
