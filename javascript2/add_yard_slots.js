@@ -102,7 +102,7 @@ function assignPrefix() {
     
     $("#brcd-preview").html("Display Location Preview: " + $("#prefix").val());
   });
-  $("#startNum").keyUp( function () {
+  $("#startNum").keyup( function () {
     $("#brcd-preview").append($("#startNum").val());
   });
 }
