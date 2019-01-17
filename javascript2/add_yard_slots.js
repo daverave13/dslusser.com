@@ -108,7 +108,7 @@ function generate() {
   $("#genTarget").html("");
   alert(plant);
   prefix = $('#prefix').val();
-  if (plant < 0) {
+  if (typeof plant == 'undefined') {
     alert('Please select a plant from the dropdown first.');
   }
   else {
