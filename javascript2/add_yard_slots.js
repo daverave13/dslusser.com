@@ -47,7 +47,6 @@ function assignVars(plant) {
   }
 }
 
-function 
 
 function funcStart() {
   assignPlantVar();
