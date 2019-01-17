@@ -50,6 +50,12 @@ function assignVars(plant) {
     YZID = 426;
     console.log(FID + " " + YID  + " " + YZID);
   }
+  else if (plant == "PHI") {
+    FID = 376;
+    YID = 328;
+    YZID = 342;
+    console.log(FID + " " + YID  + " " + YZID);
+  }
   else {
     alert("You must pick a plant before generating SQL");
   }
