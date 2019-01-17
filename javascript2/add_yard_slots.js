@@ -52,8 +52,8 @@ function assignVars(plant) {
 
 function assignPrefix() {
   $("#prefix").keyup( function () {
-    console.log("inputed");
-    //console.log($("#prefix").val());
+    //console.log("inputed");
+    console.log($("#prefix").val());
   });
 }
 
