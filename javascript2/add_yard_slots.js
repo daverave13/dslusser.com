@@ -52,7 +52,7 @@ function assignVars(plant) {
 
 function assignPrefix() {
   ${"#prefix").onChange(function () {
-    console.log($("this").val());
+    console.log($("#prefix").val());
   });
 }
 
