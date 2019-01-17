@@ -14,8 +14,27 @@
   </head>
   <body onload="funcStart()">
     <form class="form" action="index.html" method="post">
-      <label for="org">Enter 3 letter org code:</label>
-      <input type="text" name="org" placeholder="PHI (example)">
+      <label for="org">Enter yard slot/dock door prefix:</label>
+      <input type="text" name="org" placeholder="EX: PHI or Yard or Y">
+      <div class="dropdown">
+      <button class="dropbtn">Select a plant</button>
+        <div class="dropdown-content">
+          <p class="plant-btn" id="ABQ">ABQ</p>
+          <p class="plant-btn" id="DAL">DAL</p>
+          <p class="plant-btn" id="DA2">DA2</p>
+          <p class="plant-btn" id="PHI">PHI</p>
+          <p class="plant-btn" id="GRV">GRV</p>
+          <p class="plant-btn" id="NDC">NDC</p>
+          <p class="plant-btn" id="HAM">HAM</p>
+          <p class="plant-btn" id="MOR">MOR</p>
+          <p class="plant-btn" id="ALN">ALN</p>
+          <p class="plant-btn" id="DEN">DEN</p>
+          <p class="plant-btn" id="PHX">PHX</p>
+          <p class="plant-btn" id="STK">STK</p>
+          <p class="plant-btn" id="ST2">ST2</p>
+        </div>
+      </div>
+      <input type="submit" value="Submit">
     </form>
   </body>
 </html>
