@@ -59,3 +59,7 @@
     align-items: start;
     justify-content: space-around;
 }
+
+.red {
+  color: red;
+}
