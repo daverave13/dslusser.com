@@ -1,6 +1,8 @@
 function inits() {
   let plant = "";
-  let 
+  let FID = 0;
+  let YID = 0;
+  let YZID = 0;
   
 /*   WHSE = ST2
   FID = 507 ;select whse, facility_id from facility where whse like '';
