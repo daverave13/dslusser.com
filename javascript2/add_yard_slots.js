@@ -1,4 +1,11 @@
-let plant = "";
+function inits() {
+  let plant = "";
+  $("#genForm").submit(function(e) {
+      e.preventDefault();
+  });
+}
+
+
 function assignPlantVar() {
   $(".plant-btn").click(function(evt) {
     plant = evt.target.id;
