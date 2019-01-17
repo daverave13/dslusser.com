@@ -13,35 +13,37 @@
     <link rel="stylesheet" href="../stylesheets/add_yard_slots.css">
   </head>
   <body onload="funcStart()">
-    <div id="genFormWrapper">
-      <form id="genForm" class="form" action="index.html" method="post">
-        <label for="org">Enter yard slot/dock door prefix:</label>
-        <input id="prefix" type="text" name="org" placeholder="EX: PHI or Yard or Y">
-        <div class="dropdown">
-        <button class="dropbtn">Select a plant</button>
-          <div class="dropdown-content">
-            <p class="plant-btn" id="ABQ">ABQ</p>
-            <p class="plant-btn" id="DAL">DAL</p>
-            <p class="plant-btn" id="DA2">DA2</p>
-            <p class="plant-btn" id="PHI">PHI</p>
-            <p class="plant-btn" id="GRV">GRV</p>
-            <p class="plant-btn" id="NDC">NDC</p>
-            <p class="plant-btn" id="HAM">HAM</p>
-            <p class="plant-btn" id="MOR">MOR</p>
-            <p class="plant-btn" id="ALN">ALN</p>
-            <p class="plant-btn" id="DEN">DEN</p>
-            <p class="plant-btn" id="PHX">PHX</p>
-            <p class="plant-btn" id="STK">STK</p>
-            <p class="plant-btn" id="ST2">ST2</p>
-          </div>
+    <div id="main-content-wrapper">
+      <div id="genFormWrapper">
+        <form id="genForm" class="form" action="index.html" method="post">
+          <label for="org">Enter yard slot/dock door prefix:</label>
+          <input id="prefix" type="text" name="org" placeholder="EX: PHI or Yard or Y">
+          <div class="dropdown">
+          <button class="dropbtn">Select a plant</button>
+            <div class="dropdown-content">
+              <p class="plant-btn" id="ABQ">ABQ</p>
+              <p class="plant-btn" id="DAL">DAL</p>
+              <p class="plant-btn" id="DA2">DA2</p>
+              <p class="plant-btn" id="PHI">PHI</p>
+              <p class="plant-btn" id="GRV">GRV</p>
+              <p class="plant-btn" id="NDC">NDC</p>
+              <p class="plant-btn" id="HAM">HAM</p>
+              <p class="plant-btn" id="MOR">MOR</p>
+              <p class="plant-btn" id="ALN">ALN</p>
+              <p class="plant-btn" id="DEN">DEN</p>
+              <p class="plant-btn" id="PHX">PHX</p>
+              <p class="plant-btn" id="STK">STK</p>
+              <p class="plant-btn" id="ST2">ST2</p>
+            </div>
+            </div>
+            <label for="startNum">Enter yard slot start number: </label>
+            <input type="number" name="startNum" id="startNum">
+            <label for="endNum">Enter yard slot end number: </label>
+            <input type="number" name="endNum" id="endNum">
+            <button type="button" onclick="generate()">Generate SQL</button>
+          </form>
         </div>
-        <label for="startNum">Enter yard slot start number: </label>
-        <input type="number" name="startNum" id="startNum">
-        <label for="endNum">Enter yard slot end number: </label>
-        <input type="number" name="endNum" id="endNum">
-        <button type="button" onclick="generate()">Generate SQL</button>
-      </form>
-    </div>
+      </div>
     <div id="genTarget">
 
     </div>
