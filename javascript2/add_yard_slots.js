@@ -36,7 +36,7 @@ function assignVars(plant) {
     YID = 388;
     YZID = 426;
     $("#plant-readout").css("display","inline");
-    $("#plant-readout").html(plant);
+    $("#plant-readout").html(plant + " selected");
   }
   else if (plant == "PHI") {
     FID = 376;
