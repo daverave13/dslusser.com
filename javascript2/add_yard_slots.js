@@ -1,5 +1,5 @@
 function inits() {
-  let WHSE = "";
+  let plant = "";
   let 
   
   WHSE = ST2
@@ -13,29 +13,29 @@ function inits() {
 }
 
 
-function assignWHSEVar() {
-  $(".WHSE-btn").click(function(evt) {
-    WHSE = evt.target.id;
-    console.log(WHSE);
+function assignPlantVar() {
+  $(".plant-btn").click(function(evt) {
+    plant = evt.target.id;
+    console.log(plant);
   });
 }
 
 function generate() {
-  if (WHSE == "") {
-    alert('Please select a WHSE from the dropdown first.')
+  if (plant == "") {
+    alert('Please select a plant from the dropdown first.')
   }
-  else {  $("#genTarget").append("Insert into LOCN_HDR (LOCN_ID,WHSE,LOCN_CLASS,LOCN_BRCD,AREA,ZONE,AISLE,BAY,LVL,POSN,DSP_LOCN,LOCN_PICK_SEQ,SKU_DEDCTN_TYPE,SLOT_TYPE,PUTWY_ZONE,PULL_ZONE,PICK_DETRM_ZONE,LEN,WIDTH,HT,X_COORD,Y_COORD,Z_COORD,WORK_GRP,WORK_AREA,LAST_FROZN_DATE_TIME,LAST_CNT_DATE_TIME,CYCLE_CNT_PENDING,PRT_LABEL_FLAG,TRAVEL_AISLE,TRAVEL_ZONE,STORAGE_UOM,PICK_UOM,CREATE_DATE_TIME,MOD_DATE_TIME,USER_ID,SLOT_UNUSABLE,CHECK_DIGIT,VOCO_INTRNL_REVERSE_BRCD,LOCN_HDR_ID,WM_VERSION_ID,LOCN_PUTWY_SEQ,LOCN_DYN_ASSGN_SEQ,CREATED_DTTM,LAST_UPDATED_DTTM,FACILITY_ID) values (SEQ_LOCATION_ID.NEXTVAL," + WHSE + ",'Y','%BRCD%',null,null,null,null,null,null,'%BRCD%',SEQ_LOCATION_ID.NEXTVAL,null,null,null,null,null,0,0,0,0,0,0,null,null,null,null,'N',null,null,null,null,null,to_date('24-APR-18','DD-MON-RR'),to_date('24-APR-18','DD-MON-RR'),'WMADMIN','N','YY', REVERSE('%BRCD%'),LOCN_HDR_ID_SEQ.NEXTVAL,1,null,null,to_timestamp('24-APR-18 10.51.38.000000000 AM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('24-APR-18 10.51.38.000000000 AM','DD-MON-RR HH.MI.SSXFF AM'),%FID%);");
+  else {  $("#genTarget").append("Insert into LOCN_HDR (LOCN_ID,WHSE,LOCN_CLASS,LOCN_BRCD,AREA,ZONE,AISLE,BAY,LVL,POSN,DSP_LOCN,LOCN_PICK_SEQ,SKU_DEDCTN_TYPE,SLOT_TYPE,PUTWY_ZONE,PULL_ZONE,PICK_DETRM_ZONE,LEN,WIDTH,HT,X_COORD,Y_COORD,Z_COORD,WORK_GRP,WORK_AREA,LAST_FROZN_DATE_TIME,LAST_CNT_DATE_TIME,CYCLE_CNT_PENDING,PRT_LABEL_FLAG,TRAVEL_AISLE,TRAVEL_ZONE,STORAGE_UOM,PICK_UOM,CREATE_DATE_TIME,MOD_DATE_TIME,USER_ID,SLOT_UNUSABLE,CHECK_DIGIT,VOCO_INTRNL_REVERSE_BRCD,LOCN_HDR_ID,WM_VERSION_ID,LOCN_PUTWY_SEQ,LOCN_DYN_ASSGN_SEQ,CREATED_DTTM,LAST_UPDATED_DTTM,FACILITY_ID) values (SEQ_LOCATION_ID.NEXTVAL," + plant + ",'Y','%BRCD%',null,null,null,null,null,null,'%BRCD%',SEQ_LOCATION_ID.NEXTVAL,null,null,null,null,null,0,0,0,0,0,0,null,null,null,null,'N',null,null,null,null,null,to_date('24-APR-18','DD-MON-RR'),to_date('24-APR-18','DD-MON-RR'),'WMADMIN','N','YY', REVERSE('%BRCD%'),LOCN_HDR_ID_SEQ.NEXTVAL,1,null,null,to_timestamp('24-APR-18 10.51.38.000000000 AM','DD-MON-RR HH.MI.SSXFF AM'),to_timestamp('24-APR-18 10.51.38.000000000 AM','DD-MON-RR HH.MI.SSXFF AM'),%FID%);");
   }
 }
 
-function assignVars(WHSE) {
-  if (WHSE == "ABQ") {
+function assignVars(plant) {
+  if (plant == "ABQ") {
     
   }
 }
 
 function funcStart() {
-  assignWHSEVar();
+  assignPlantVar();
 }
 
 /*  Send, --%BRCD%{ENTER}
