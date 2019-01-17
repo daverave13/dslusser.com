@@ -51,7 +51,7 @@ function assignVars(plant) {
 function assignPrefix() {
   $("#prefix").on('input', function() {
     prefix = $('this').val();
-    consol.log(prefix);
+    console.log(prefix);
   });
 }
 
