@@ -79,6 +79,7 @@ function generate() {
 
 function funcStart() {
   inits();
+  assignPrefix();
   assignPlantVar();
   
 }
