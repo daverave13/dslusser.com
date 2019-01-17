@@ -19,7 +19,8 @@
           <label for="org">Enter yard slot/dock door prefix:</label>
           <input id="prefix" type="text" name="org" placeholder="EX: PHI or Yard or Y">
           <div class="dropdown">
-          <button class="dropbtn">Select a plant</button>
+            <button class="dropbtn">Select a plant</button>
+            <div id="plant-readout"></div>
             <div class="dropdown-content">
               <p class="plant-btn" id="ABQ">ABQ</p>
               <p class="plant-btn" id="DAL">DAL</p>
@@ -42,9 +43,6 @@
           <input type="number" name="endNum" id="endNum">
           <button type="button" onclick="generate()">Generate SQL</button>
         </form>
-      </div>
-      <div>
-        <p>temp data</p>
       </div>
     </div>
     <div id="genTarget">
