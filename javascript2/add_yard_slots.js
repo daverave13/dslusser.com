@@ -25,6 +25,8 @@ function assignPlantVar() {
 }
 
 function generate() {
+  console.log($('#prefix').val());
+  
   if (plant == "") {
     alert('Please select a plant from the dropdown first.')
   }
@@ -48,16 +50,9 @@ function assignVars(plant) {
   }
 }
 
-function assignPrefix() {
-  $("#prefix").on('input', function() {
-    prefix = evt.target;
-    console.log(prefix);
-  });
-}
 
 function funcStart() {
   assignPlantVar();
-  assignPrefix();
   inits();
 }
 
