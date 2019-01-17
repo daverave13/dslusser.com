@@ -32,8 +32,13 @@ function generate() {
 
 function assignVars(plant) {
   if (plant == "ABQ") {
-    
+    FID = 436;
+    YID = 388;
+    YZID = 426;
+    console.log(FID + " " + YID  + " " + YZID);
   }
+  else {
+    alert("You must pick a plant before generating SQL");
 }
 
 function funcStart() {
