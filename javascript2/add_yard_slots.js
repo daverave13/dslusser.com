@@ -18,7 +18,7 @@ function inits() {
 function assignPlantVar() {
   $(".plant-btn").click(function(evt) {
     plant = evt.target.id;
-    console.log(plant);
+    assignVars(plant);
   });
 }
 
