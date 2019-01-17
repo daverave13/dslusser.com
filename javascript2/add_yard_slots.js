@@ -11,5 +11,4 @@ function assignPlantVar() {
 
 function funcStart() {
   assignPlantVar();
-  alert('the git thing worked!');
 }
