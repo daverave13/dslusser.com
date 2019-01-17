@@ -12,8 +12,8 @@ function inits() {
   let endNum = 10;
   
 /*   WHSE = ST2
-     FID = 507       ;select whse, facility_id from facility where whse like '';
-     YID = 407       ;SELECT YARD_ID FROM YARD_ZONE_SLOT;
+     FID = 507       ; select whse, facility_id from facility where whse like '';
+     YID = 407       ; SELECT YARD_ID FROM YARD_ZONE_SLOT;
      YZID = 465       ;SELECT YARD_ZONE_ID FROM YARD_ZONE_SLOT; */
 
   $("#genForm").submit(function(e) {
@@ -42,11 +42,57 @@ function assignVars(plant) {
     FID = 376;
     YID = 328;
     YZID = 342;
+    $("#plant-readout").css("display","inline");
+    $("#plant-readout").html(plant + " selected");
   }
+  else if (plant == "ALN") {
+    FID = 30;
+    YID = 22;
+    YZID = 626;
+    $("#plant-readout").css("display","inline");
+    $("#plant-readout").html(plant + " selected");
+  }
+  else if (plant == "CON") {
+    FID = 355;
+    YID = 307;
+    YZID = 324;
+    $("#plant-readout").css("display","inline");
+    $("#plant-readout").html(plant + " selected");
+  }
+  else if (plant == "DA2") {
+    FID = 455;
+    YID = 407;
+    YZID = 465;
+    $("#plant-readout").css("display","inline");
+    $("#plant-readout").html(plant + " selected");
+  }
+  /* else if (plant == ) {
+    FID = 436;
+    YID = 388;
+    YZID = 426;
+    $("#plant-readout").css("display","inline");
+    $("#plant-readout").html(plant + " selected");
+  }
+  else if (plant == ) {
+    FID = 436;
+    YID = 388;
+    YZID = 426;
+    $("#plant-readout").css("display","inline");
+    $("#plant-readout").html(plant + " selected");
+  }
+  else if (plant == ) {
+    FID = 436;
+    YID = 388;
+    YZID = 426;
+    $("#plant-readout").css("display","inline");
+    $("#plant-readout").html(plant + " selected");
+  } */
   else  { //st2
     FID = 507 
     YID = 407 
     YZID = 465
+    $("#plant-readout").css("display","inline");
+    $("#plant-readout").html(plant + " selected");
   }
 }
 
