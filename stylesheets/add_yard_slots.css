@@ -38,6 +38,11 @@
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
+#genFormWrapper {
+  display: flex;
+  justify-content: center;
+}
+
 #genForm {
     display: flex;
     flex-direction: column;
