@@ -39,6 +39,7 @@ function assignVars(plant) {
   }
   else {
     alert("You must pick a plant before generating SQL");
+  }
 }
 
 function funcStart() {
