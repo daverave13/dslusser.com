@@ -50,6 +50,12 @@ function assignVars(plant) {
   }
 }
 
+function assignPrefix() {
+  ${"#prefix").onChange(function () {
+    console.log($("this").val());
+  });
+}
+
 function generate() {
   $("#genTarget").html("");
   prefix = $('#prefix').val();
