@@ -11,5 +11,4 @@ function assignPlantVar() {
 
 function funcStart() {
   assignPlantVar();
-  alert("I love Tanya from the bottom of my heart!")
 }
