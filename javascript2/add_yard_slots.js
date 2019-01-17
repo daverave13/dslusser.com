@@ -1,6 +1,6 @@
 
 function assignPlantVar() {
-  $("#ABQ").click(function(evt) {
+  $(".plant-btn").click(function(evt) {
     //let plant = plant name here
     console.log("success");
     // let plant = $("#ABQ").html();
