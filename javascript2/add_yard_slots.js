@@ -53,7 +53,7 @@ function assignVars(plant) {
 function assignPrefix() {
   $("#prefix").keyup( function () {
     //console.log("inputed");
-    console.log($("#prefix").val());
+    $("#brcd-preview").html($("#prefix").val());
   });
 }
 
