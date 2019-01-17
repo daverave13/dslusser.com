@@ -4,7 +4,7 @@ function assignPlantVar() {
     //let plant = plant name here
     console.log("success");
     // let plant = $("#ABQ").html();
-    let plant = evt.target.innerHTML();
+    let plant = $('evt.target').text();
     console.log(plant);
   });
 }
