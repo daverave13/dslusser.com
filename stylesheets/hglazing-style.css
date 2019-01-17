@@ -1,0 +1,39 @@
+* {
+    font-family: Helvetica;
+
+}
+
+html {
+  height: 100%;
+}
+
+body {
+
+}
+
+a {
+	color: white;
+}
+
+/* mouse over link */
+a:hover {
+
+}
+
+/* selected link */
+a:active {
+  color: red;
+}
+
+.header {
+  width: 40%;
+  height: 20%;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+}

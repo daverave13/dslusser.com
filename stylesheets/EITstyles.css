@@ -1,0 +1,8 @@
+table {
+  background-color: grey;
+  border: solid white 2px;
+}
+
+td, th {
+  padding:0px 20px 0px;
+}

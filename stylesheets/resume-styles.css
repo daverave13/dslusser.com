@@ -1,0 +1,103 @@
+* {
+    font-family: Helvetica;
+    animation-duration: 1.5s;
+    animation-name: slideup;
+}
+
+@keyframes slideup {
+  from {
+    margin-top: 100%;
+    width: 100%;
+  }
+  to {
+    margin-top: 0%;
+    width: 100%;
+  }
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(#3385ff, #9b9bef);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  overflow: hidden;
+}
+
+header {
+  background-color:rgba(216, 216, 216, 0.5);
+  border-bottom: solid 3px rgb(216, 216, 216);
+  background-width: 100%;
+  padding: 20px;
+}
+
+header a, header p {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  font-family: helvetica;
+}
+
+.resume-header {
+  color: white;
+  /* display: flex;
+  justify-content: center; */
+  font-family: helvetica;
+  font-size: 20px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 30%;
+}
+
+.item-title {
+  color: #fff;
+}
+
+.item-title h4 {
+  padding: 0;
+  margin: 0;
+}
+
+.detail {
+  padding-left: 5%;
+}
+
+.detail li {
+  margin-left: 5%;
+}
+
+.detail ul {
+  list-style: circle;
+}
+
+.date {
+  float: right;
+  clear: left;
+  font-style: italic;
+  width: 45%;
+  overflow: hidden;
+}
+
+.line-break {
+  border-top: rgb(216, 216, 216) solid 2px;
+  width: 45%;
+  margin: 2% 8%;
+}
+
+.vertical-spacer {
+  border-top: solid 3px rgb(216, 216, 216);
+  background-color: rgba(216, 216, 216, 0.5);
+  padding-bottom: 2%;
+  height: 2%;
+}

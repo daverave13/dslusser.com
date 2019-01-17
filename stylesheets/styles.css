@@ -1,0 +1,166 @@
+* {
+    font-family: Helvetica;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url('../img/bg.png');
+  background-size: 45%;
+  background-color: #D3BB34;
+  background-repeat:   no-repeat;
+  background-position: 47% 90%;
+  /*linear-gradient(45deg,skyblue,hotpink);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;*/
+}
+
+a {
+	color: white;
+}
+
+/* mouse over link */
+a:hover {
+ 
+}
+
+/* selected link */
+a:active {
+  color: red;
+}
+
+.header {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: helvetica;
+  font-size: 50px;
+}
+
+.resume-header {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: helvetica;
+  font-size: 20px;
+}
+
+header {
+  background-color:rgba(216, 216, 216, 0.5);
+  background-width: 100%;
+  padding: 20px;
+  border-bottom: solid 3px rgb(216, 216, 216);
+}
+
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.thumbnail-list {
+  list-style: none;
+}
+
+.thumbnail-item a {
+}
+
+.link-style {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: helvetica;
+  align-content: center;
+}
+
+.link-style:hover {
+	color: #71337c;
+}
+
+.thumbnail-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+img:hover {
+   -webkit-transform: scale(1.2) rotate(45deg);
+   transform: scale(1.2) rotate(45deg);
+   overflow: show;
+}
+
+.thumbnail-title {
+   background-color: rgba(150, 150, 150, 0.9);
+   border-radius: 5px;
+   border: solid 1px rgb(216, 216, 216);
+   padding: 0 4px;
+}
+
+.thumbnail-title:hover {
+   background-color: white;
+   color: black;
+   border-radius: 5px;
+   border: solid 1px rgb(216, 216, 216);
+   padding: 0 4px;
+}
+
+#btc-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#btc h2 {
+    color: white;
+    background-color: rgba(216, 216, 216, 0.3);
+    padding: 15px;
+    margin: 50px 0;
+    border: solid 3px rgb(216, 216, 216);
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#qod-flex-container {
+  display: flex;
+  justify-content: center;
+  border-top: solid 3px rgb(216, 216, 216);
+  background-color: rgba(216, 216, 216, 0.3);
+  padding: 30px 40px 20px;
+  margin: 50px 0 0 0;
+  bottom: 0;
+  position: fixed;
+  font-size: 20px;
+  width: 96%; /*I have no clue why this needs to be at 96% but it does,
+                don't question it, don't delete this line*/
+}
+
+#qod a {
+  display: flex;
+  justify-content: center;
+}
+
+#qod-control {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0,0,0,0);
+  height: 15%;
+  z-index: 1;
+  width: 100%;
+}
+
+.manh, .manh-dev, .manh-uat{
+  display: none;
+  z-index: 2;
+}
+
+.manh-dev span {
+  background-color: purple;
+}
+
+.manh-uat span {
+  background-color: green;
+}

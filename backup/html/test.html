@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test page</title>
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+        console.log("test1");
+        $.get(
+        "http://help.niagarawater.com/cgrestapi/api/authenticate/user",
+        {username : 'dslusser', password : 'daverave13'},
+        function(data) {
+           alert('page content: ' + data);
+        }
+      );
+        console.log("test2");
+    </script>
+  </body>
+</html>

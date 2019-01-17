@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Angular Test Page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  </head>
+  <body>
+    <div ng-app="" ng-init="names=['One','Two','Three']">
+    
+    <h2>BMI Calculator made with Angular JS</h2>
+    
+    Feet: <input type="number" ng-model="feet">
+    Inches: <input type="number" ng-model="inches">
+    Weight: <input type="number" ng-model="lbs">
+    
+    <p>BMI: {{(lbs * 0.453592)/(((feet * 12)+ inches) * 0.0254)/(((feet * 12)+ inches) * 0.0254) || "Enter values above"}}</p>
+    
+    <br><br><br><br><br>
+    
+      <ul>
+        <li ng-repeat="x in names">
+          {{x}}
+        </li>
+      </ul>
+      
+      <br><br><br><br><br>
+      
+      <style>
+      input.ng-invalid {
+        background-color: orange;
+        }
+      </style>
+      
+      <form name="myForm">
+        Enter your email: <input type="email" name="emailAddress" ng-model="text">
+        <span ng-show="myForm.emailAddress.$error.email">Not a valid email ya dingus!</span>
+      </form>
+      
+      <br><br><br>
+      
+      <div ng-show='popupVisible'>  
+        Dialog box..
+        <button ng-click=closePopup()>
+      </div>  
+      
+      <button ng-click='showPopup()'>
+      
+      <script>
+      $scope.showPopup = function() {
+        $scope.popupVisible = true;
+      }
+      
+      $scope.hidePopup = function() {
+        $scope.popupVisible = false;
+      }
+      
+      </script>
+    </div>
+      
+    
+    </body>
+</html>

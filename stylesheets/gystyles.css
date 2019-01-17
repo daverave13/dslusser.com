@@ -1,0 +1,48 @@
+* {
+    font-family: Helvetica;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  background-color:rgba(216, 216, 216, 0.5);
+  background-width: 100%;
+  padding: 20px;
+  border-bottom: solid 3px rgb(216, 216, 216);
+  align-content: center;
+}
+
+.header {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: helvetica;
+}
+
+body {
+  background-color: #009999;
+}
+
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+
+a:hover {
+  color: blue;
+}
+
+.main-content {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.link-style {
+  text-align: center;
+}
