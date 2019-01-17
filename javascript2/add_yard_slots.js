@@ -2,10 +2,10 @@ function inits() {
   let plant = "";
   let 
   
-  WHSE = ST2
+/*   WHSE = ST2
   FID = 507 ;select whse, facility_id from facility where whse like '';
   YID = 407 ;SELECT YARD_ID FROM YARD_ZONE_SLOT;
-  YZID = 465 ;SELECT YARD_ZONE_ID FROM YARD_ZONE_SLOT;
+  YZID = 465 ;SELECT YARD_ZONE_ID FROM YARD_ZONE_SLOT; */
   
   $("#genForm").submit(function(e) {
       e.preventDefault();
