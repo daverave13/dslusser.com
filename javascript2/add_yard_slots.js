@@ -52,7 +52,8 @@ function assignVars(plant) {
 
 function assignPrefix() {
   $("#prefix").change(function () {
-    console.log($("#prefix").val());
+    console.log("inputed");
+    //console.log($("#prefix").val());
   });
 }
 
