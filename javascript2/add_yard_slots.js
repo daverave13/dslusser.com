@@ -106,9 +106,10 @@ function assignPrefix() {
 
 function generate() {
   $("#genTarget").html("");
+  alert(plant);
   prefix = $('#prefix').val();
   if (plant == "") {
-    alert('Please select a plant from the dropdown first.')
+    alert('Please select a plant from the dropdown first.');
   }
   else {
     i = $("#startNum").val();
