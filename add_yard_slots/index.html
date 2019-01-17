@@ -18,7 +18,7 @@
         <form id="genForm" class="form" action="index.html" method="post">
           <label for="org">Enter yard slot/dock door prefix:</label>
           <input id="prefix" type="text" name="org" placeholder="EX: PHI or Yard or Y">
-          <div id="brcd-preview"></div>
+          <div id="brcd-preview"></div><div id="startNum-preview"></div><div id="endNum-preview"></div>
           <div class="dropdown">
             <button class="dropbtn">Select a plant</button>
             <div id="plant-readout"></div>
@@ -39,9 +39,9 @@
             </div>
           </div>
           <label for="startNum">Enter yard slot start number: </label>
-          <input type="text" name="startNum" id="startNum">
+          <input type="number" name="startNum" id="startNum">
           <label for="endNum">Enter yard slot end number: </label>
-          <input type="text" name="endNum" id="endNum">
+          <input type="number" name="endNum" id="endNum">
           <button type="button" onclick="generate()">Generate SQL</button>
         </form>
       </div>
