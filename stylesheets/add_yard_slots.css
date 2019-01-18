@@ -69,15 +69,16 @@ body {
 }
 
 #genForm {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: space-around;
-    margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  margin-top: 50px;
 }
 
-#genTarget {
-  
+textarea {
+  width: 250px;
+  height: 75px;
 }
 
 .red {
