@@ -155,7 +155,7 @@ function updateDoorLabels() {
   });
 }
 function updateYardLabels() {
-  $('input[id="rdo-yard"]:checked').click(function () {
+  $('input[id="rdo-yard"]').click(function () {
     console.log("yardy mc yardface");
   });
 }
