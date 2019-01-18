@@ -103,6 +103,7 @@ function updatePrefixReadout() {
 
 function doorOrYard() {
   $("input[type='button']").click(function(){
+    console.log('test');
     var radioValue = $("input[name='rdo-door']:checked").val();
     console.log(radioValue);
   });
