@@ -54,6 +54,10 @@
   flex-direction: row;
 }
 
+.rdo {
+  padding-top: 10px;
+}
+
 #genFormWrapper {
   display: flex;
   justify-content: center;
