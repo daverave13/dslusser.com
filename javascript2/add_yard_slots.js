@@ -105,15 +105,15 @@ function doorOrYard() {
   console.log("doorOrYard");
   if (($('input[id="rdo-door"]:checked').val() !== "on") && ($('input[id="rdo-yard"]:checked').val()) !== "on") {
     alert("Please select Dock Door or Yard Slot first");
-    let slotType = "none"
+    var slotType = "none"
     console.log(slotType);
   }
   else if (($('input[id="rdo-door"]:checked').val() === "on") && ($('input[id="rdo-yard"]:checked').val()) !== "on") {
-    let slotType = "dock"
+    var slotType = "dock"
     console.log("dock selected in doorOrYard");
   }
   else {
-    let slotType = "yard";
+    var slotType = "yard";
     console.log("yard selected in doorOrYard");
   }
   return slotType;  
