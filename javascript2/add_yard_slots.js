@@ -139,7 +139,7 @@ function generate() {
       }
     }
   }
-  copySQL
+  copySQL();
 }
 
 //populates a readout to see what the display barcode will look like
