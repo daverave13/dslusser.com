@@ -135,7 +135,7 @@ function generate() {
   var slotType = doorOrYard()                                      //grab the door or yard choice
   i = $("#startNum").val();                                        //grab the startNum
   n = $("#endNum").val();                                          //grab the endNum
-  console.log(typeof(prefix));
+  console.log(prefix.lenght);
   console.log(typeof(i));
   console.log(typeof(n));
   
@@ -145,13 +145,13 @@ function generate() {
   else if (slotType == 'none') {
     alert("Please select Dock Door or Yard Slot first");
   }
-  else if (typeof(prefix) == 'undefined' ) {
+  else if (prefix.lenght < 1 ) {
     alert("Please enter a prefix like PHI or Yard");
   }
-  else if (typeof(i) == 'undefined') {
+  else if (typeof(i) == 'string') {
     alert("Please enter a start number");
   }
-  else if (typeof(n) == 'undefined') {
+  else if (typeof(n) == 'string') {
     alert("Please enter an end number");
   }
   else {
