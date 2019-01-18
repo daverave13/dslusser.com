@@ -9,6 +9,7 @@ function inits() {
   let strWhseSysCode = "";
   let startNum = 5;
   let endNum = 10;
+  $("textarea").resizable();
 
 /*   WHSE = ST2
      FID = 507       ; select whse, facility_id from facility where whse like '';

@@ -68,12 +68,16 @@ body {
   justify-content: center;
 }
 
-#genForm, #genTarget {
+#genForm {
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: space-around;
     margin-top: 50px;
+}
+
+#genTarget {
+  
 }
 
 .red {
