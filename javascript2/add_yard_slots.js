@@ -135,7 +135,7 @@ function generate() {
   var slotType = doorOrYard()                                      //grab the door or yard choice
   i = $("#startNum").val();                                        //grab the startNum
   n = $("#endNum").val();                                          //grab the endNum
-  console.log(prefix.lenght);
+  console.log(prefix.lenght());
   console.log(typeof(i));
   console.log(typeof(n));
   
