@@ -102,7 +102,17 @@ function updatePrefixReadout() {
 }
 
 function doorOrYard() {
-  return $('input[id="rdo-door"]:checked').val() + "<-door | yard->" + $('input[id="rdo-yard"]:checked').val();
+  if (($('input[id="rdo-door"]:checked').val() !== "on") && ($('input[id="rdo-yard"]:checked').val()) !== "on") {
+    alert("Please select Dock Door or Yard Slot first");
+    let slotType = "undefined"
+  }
+  else if (($('input[id="rdo-door"]:checked').val() === "on") && ($('input[id="rdo-yard"]:checked').val()) !== "on") {
+    let slotType = "dock"
+  }
+  else {
+    let slotType = "yard";
+  }
+  return slotType;  
 } 
 
 function generate() {
