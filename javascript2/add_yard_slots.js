@@ -103,6 +103,7 @@ function assignPrefix() {
 
 function doorOrYard() {
   // if ($("#rdo-door").)
+  console.log('test');
   console.log($("#rdo-dock").val());
 }
 
