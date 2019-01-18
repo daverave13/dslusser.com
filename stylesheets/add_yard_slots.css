@@ -1,3 +1,7 @@
+html {
+  background-color: #6fa3f7;
+}
+
 /* Dropdown Button */
 .dropbtn, label{
   background-color: blue;
