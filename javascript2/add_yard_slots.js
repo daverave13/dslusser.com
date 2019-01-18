@@ -102,8 +102,8 @@ function updatePrefixReadout() {
 }
 
 function doorOrYard() {
-  return $('input[name="rdo"]:checked').val();
-}
+  return $('input[name="rdo-door"]:checked').val() + "<-door | yard->" + $('input[name="rdo-yard"]:checked').val();
+} 
 
 function generate() {
   $("#genTarget").html("");
