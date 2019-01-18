@@ -148,10 +148,10 @@ function generate() {
   else if (prefix.length < 1 ) {
     alert("Please enter a prefix like PHI or Yard");
   }
-  else if () {
+  else if (false) {
     alert("Please enter a start number");
   }
-  else if () {
+  else if (false) {
     alert("Please enter an end number");
   }
   else {
