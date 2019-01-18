@@ -142,6 +142,15 @@ function generate() {
   else if (slotType == 'none') {
     alert("Please select Dock Door or Yard Slot first");
   }
+  else if (typeof(prefix) == 'undefined' ) {
+    alert("Please enter a prefix like PHI or Yard");
+  }
+  else if (typeof(i) == 'undefined') {
+    alert("Please enter a start number");
+  }
+  else if (typeof(n) == 'undefined') {
+    alert("Please enter an end number");
+  }
   else {
     for (i; i<= n; i++) {
       if (slotType == "yard") {
