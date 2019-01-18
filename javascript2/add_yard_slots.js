@@ -136,8 +136,8 @@ function generate() {
   i = $("#startNum").val();                                        //grab the startNum
   n = $("#endNum").val();                                          //grab the endNum
   console.log(prefix.length);
-  console.log(typeof(i));
-  console.log(typeof(n));
+  console.log(i.length);
+  console.log(n.length);
   
   if (typeof(plant) == 'undefined') {                     
     alert('Please select a plant from the dropdown first.');
@@ -148,10 +148,10 @@ function generate() {
   else if (prefix.length < 1 ) {
     alert("Please enter a prefix like PHI or Yard");
   }
-  else if (typeof(i) == 'string') {
+  else if () {
     alert("Please enter a start number");
   }
-  else if (typeof(n) == 'string') {
+  else if () {
     alert("Please enter an end number");
   }
   else {
