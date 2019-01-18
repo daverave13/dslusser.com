@@ -135,6 +135,9 @@ function generate() {
   var slotType = doorOrYard()                                      //grab the door or yard choice
   i = $("#startNum").val();                                        //grab the startNum
   n = $("#endNum").val();                                          //grab the endNum
+  console.log(typeof(prefix));
+  console.log(typeof(i));
+  console.log(typeof(n));
   
   if (typeof(plant) == 'undefined') {                     
     alert('Please select a plant from the dropdown first.');
