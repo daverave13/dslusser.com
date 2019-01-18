@@ -68,7 +68,7 @@ body {
   justify-content: center;
 }
 
-#genForm {
+#genForm, #genTarget {
     display: flex;
     flex-direction: column;
     align-items: start;
