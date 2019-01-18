@@ -104,7 +104,7 @@ function updatePrefixReadout() {
 function doorOrYard() {
   if (($('input[id="rdo-door"]:checked').val() !== "on") && ($('input[id="rdo-yard"]:checked').val()) !== "on") {
     alert("Please select Dock Door or Yard Slot first");
-    let slotType = "undefined"
+    let slotType = "none"
   }
   else if (($('input[id="rdo-door"]:checked').val() === "on") && ($('input[id="rdo-yard"]:checked').val()) !== "on") {
     let slotType = "dock"
