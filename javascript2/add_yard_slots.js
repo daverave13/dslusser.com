@@ -163,7 +163,8 @@ function updateYardLabels() {
 function funcStart() {
   inits();
   updatePrefixReadout();
-  updateLabels();
+  updateYardLabels();
+  updateDoorLabels();
   assignPlantVar();
 
 }
