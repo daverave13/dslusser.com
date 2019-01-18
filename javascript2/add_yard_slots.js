@@ -102,7 +102,7 @@ function updatePrefixReadout() {
 }
 
 function doorOrYard() {
-  return $("#rdo-yard").val() + " | " + $("#rdo-door").val();
+  return $('input[name="rdo"]:checked').val();
 }
 
 function generate() {
