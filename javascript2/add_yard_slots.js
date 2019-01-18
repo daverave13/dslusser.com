@@ -149,10 +149,12 @@ function updatePrefixReadout() {
 }
 
 //updates the labels based on dock door or yard slot
-function updateLabels() {
+function updateDoorLabels() {
   $('input[id="rdo-door"]').click(function () {
     console.log("doory mc doorface");
   });
+}
+function updateYardLabels() {
   $('input[id="rdo-yard"]:checked').click(function () {
     console.log("yardy mc yardface");
   });
