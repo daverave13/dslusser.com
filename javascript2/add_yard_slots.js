@@ -167,7 +167,7 @@ function updateYardLabels() {
 
 function copySQL() {
   /* Get the text field */
-  var copyText = $("#genTarget");
+  var copyText = $("#genTarget").html();
 
   /* Select the text field */
   copyText.select();
