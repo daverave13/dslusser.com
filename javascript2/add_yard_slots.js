@@ -102,20 +102,17 @@ function updatePrefixReadout() {
 }
 
 function doorOrYard() {
-  $("input[type='button']").click(function(){
-    console.log('test');
-    var radioValue = $("input[name='rdo-door']:checked").val();
-    console.log(radioValue);
-  });
+  return $("#rdo-door").val();
 }
 
 function generate() {
   $("#genTarget").html("");
   prefix = $('#prefix').val();
-  doorOrYard();
+  console.log(doorOrYard());
   if (typeof(plant) == 'undefined') {
     alert('Please select a plant from the dropdown first.');
   }
+
   else {
     i = $("#startNum").val();
     n = $("#endNum").val();
