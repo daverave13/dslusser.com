@@ -151,12 +151,16 @@ function updatePrefixReadout() {
 //updates the labels based on dock door or yard slot
 function updateDoorLabels() {
   $('input[id="rdo-door"]').click(function () {
-    console.log("doory mc doorface");
+    $("#prefix-lbl").html("Enter dock door prefix:");
+    $("#startNum-lbl").html("Enter dock door start number:");
+    $("#endNum-lbl").html("Enter dock door end number:");
   });
 }
 function updateYardLabels() {
   $('input[id="rdo-yard"]').click(function () {
-    console.log("yardy mc yardface");
+    $("#prefix-lbl").html("Enter yard slot prefix:");
+    $("#startNum-lbl").html("Enter yard slot start number:");
+    $("#endNum-lbl").html("Enter yard slot end number:");
   });
 }
 
