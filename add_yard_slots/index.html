@@ -42,10 +42,12 @@
           <input type="number" name="startNum" id="startNum">
           <label for="endNum">Enter yard slot end number: </label>
           <input type="number" name="endNum" id="endNum">
-          <label for="rdo-door">Dock Door :</label>
-          <input type="radio" id="rdo-door" name="rdo">
-          <label for="rdo-yard">Yard Slot :</label>
-          <input type="radio" id="rdo-yard" name="rdo">
+          <div id="rdo-wrapper">
+            <label for="rdo-door">Dock Door :</label>
+            <input type="radio" id="rdo-door" name="rdo">
+            <label for="rdo-yard">Yard Slot :</label>
+            <input type="radio" id="rdo-yard" name="rdo">
+          </div>
           <button type="button" onclick="generate()">Generate SQL</button>
         </form>
       </div>

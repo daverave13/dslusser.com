@@ -48,6 +48,12 @@
   justify-content: center;
 }
 
+#rdo-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
 #genFormWrapper {
   display: flex;
   justify-content: center;
