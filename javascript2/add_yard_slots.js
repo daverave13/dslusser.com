@@ -165,7 +165,7 @@ function updateYardLabels() {
   });
 }
 
-function CopySQL(containerid) {
+function copySQL(containerid) {
 if (document.selection) { 
     var range = document.body.createTextRange();
     range.moveToElementText(document.getElementById(containerid));
