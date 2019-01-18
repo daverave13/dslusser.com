@@ -150,6 +150,16 @@ function updatePrefixReadout() {
   });
 }
 
+//updates the labels based on dock door or yard slot
+function updateLabels() {
+  $('input[id="rdo-door"]:checked').click(function () {
+    console.log("doory mc doorface");
+  });
+  $('input[id="rdo-yard"]:checked').click(function () {
+    console.log("yardy mc yardface");
+  });
+}
+
 function funcStart() {
   inits();
   updatePrefixReadout();
