@@ -95,16 +95,17 @@ function assignVars(plant) {
   }
 }
 
-function assignPrefix() {
+function updatePrefixReadout() {
   $("#prefix").keyup( function () {
     $("#brcd-preview").html("Display Location Preview: " + $("#prefix").val() + "##");
   });
 }
 
 function doorOrYard() {
-  // if ($("#rdo-door").)
-  console.log('test');
-  console.log($("#rdo-dock").val());
+  $("input[type='button']").click(function(){
+    var radioValue = $("input[name='rdo-door']:checked").val();
+    console.log(radioValue);
+  }
 }
 
 function generate() {
@@ -139,7 +140,7 @@ function generate() {
 
 function funcStart() {
   inits();
-  assignPrefix();
+  updatePrefixReadout();
   assignPlantVar();
 
 }
