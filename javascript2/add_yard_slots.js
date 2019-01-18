@@ -139,7 +139,7 @@ function generate() {
       }
     }
   }
-  copySQL();
+  copySQL("genTarget");
 }
 
 //populates a readout to see what the display barcode will look like
@@ -165,19 +165,20 @@ function updateYardLabels() {
   });
 }
 
-function copySQL() {
-  /* Get the text field */
-  var copyText = document.getElementById("genTarget");
+function CopySQL(containerid) {
+if (document.selection) { 
+    var range = document.body.createTextRange();
+    range.moveToElementText(document.getElementById(containerid));
+    range.select().createTextRange();
+    document.execCommand("copy"); 
 
-  /* Select the text field */
-  copyText.select();
-
-  /* Copy the text inside the text field */
-  document.execCommand("copy");
-
-  /* Alert the copied text */
-  alert("Copied the text: " + copyText.value);
-}
+} else if (window.getSelection) {
+    var range = document.createRange();
+     range.selectNode(document.getElementById(containerid));
+     window.getSelection().addRange(range);
+     document.execCommand("copy");
+     alert("text copied") 
+}}
 
 function funcStart() {
   inits();
