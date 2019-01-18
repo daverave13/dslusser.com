@@ -12,7 +12,6 @@ function inits() {
   $("#genForm").submit(function(e) {
       e.preventDefault();
   });
-  console.log("inits are inited");
 }
 
 function assignVars(plant) {
@@ -135,9 +134,6 @@ function generate() {
   var slotType = doorOrYard()                                      //grab the door or yard choice
   i = $("#startNum").val();                                        //grab the startNum
   n = $("#endNum").val();                                          //grab the endNum
-  console.log(prefix.length);
-  console.log(i.length);
-  console.log(n.length);
   
   if (typeof(plant) == 'undefined') {                     
     alert('Please select a plant from the dropdown first.');
@@ -149,10 +145,10 @@ function generate() {
     alert("Please enter a prefix like PHI or Yard");
   }
   else if (i.length < 1 || i < 1) {
-    alert("Please enter a start number");
+    alert("Please enter a valid (above 0) start number");
   }
   else if (n.length < 1  || n < 1) {
-    alert("Please enter an end number");
+    alert("Please enter a valid (above 0) end number");
   }
   else {
     for (i; i<= n; i++) {
