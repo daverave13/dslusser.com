@@ -105,7 +105,7 @@ function doorOrYard() {
   $("input[type='button']").click(function(){
     var radioValue = $("input[name='rdo-door']:checked").val();
     console.log(radioValue);
-  }
+  });
 }
 
 function generate() {
