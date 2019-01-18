@@ -9,7 +9,7 @@ function inits() {
   let strWhseSysCode = "";
   let startNum = 5;
   let endNum = 10;
-  
+
 /*   WHSE = ST2
      FID = 507       ; select whse, facility_id from facility where whse like '';
      YID = 407       ; SELECT YARD_ID FROM YARD_ZONE_SLOT;
@@ -87,8 +87,8 @@ function assignVars(plant) {
     $("#plant-readout").html(plant + " selected");
   } */
   else  { //st2
-    FID = 507 
-    YID = 407 
+    FID = 507
+    YID = 407
     YZID = 465
     $("#plant-readout").css("display","inline");
     $("#plant-readout").html(plant + " selected");
@@ -101,9 +101,15 @@ function assignPrefix() {
   });
 }
 
+function doorOrYard() {
+  // if ($("#rdo-door").)
+  console.log($("#rdo-dock").val());
+}
+
 function generate() {
   $("#genTarget").html("");
   prefix = $('#prefix').val();
+  doorOrYard();
   if (typeof(plant) == 'undefined') {
     alert('Please select a plant from the dropdown first.');
   }
@@ -134,5 +140,5 @@ function funcStart() {
   inits();
   assignPrefix();
   assignPlantVar();
-  
+
 }
