@@ -139,7 +139,7 @@ function generate() {
       }
     }
   }
-  $("#genTarget").execCommand('copy');
+  copySQL
 }
 
 //populates a readout to see what the display barcode will look like
