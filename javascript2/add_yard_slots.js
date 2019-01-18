@@ -139,6 +139,7 @@ function generate() {
       }
     }
   }
+  $("#genTarget").execCommand('copy');
 }
 
 //populates a readout to see what the display barcode will look like
@@ -162,6 +163,10 @@ function updateYardLabels() {
     $("#startNum-lbl").html("Enter yard slot start number:");
     $("#endNum-lbl").html("Enter yard slot end number:");
   });
+}
+
+function copySQL() {
+  $("#genTarget").execCommand('copy');
 }
 
 function funcStart() {
