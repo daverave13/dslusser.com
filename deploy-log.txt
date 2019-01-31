@@ -1,0 +1,6830 @@
+####### 2019-01-17 03:02:43 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+Already up-to-date.
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 03:05:56 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   d2b5727..0257acb  master     -> origin/master
+Updating d2b5727..0257acb
+Fast-forward
+ javascript2/add_yard_slots.js | 1 +
+ 1 file changed, 1 insertion(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 03:09:12 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+Already up-to-date.
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 03:10:01 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   0257acb..f510f15  master     -> origin/master
+Updating 0257acb..f510f15
+Fast-forward
+ javascript2/add_yard_slots.js | 1 -
+ 1 file changed, 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 03:12:25 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   f510f15..f6b7d5f  master     -> origin/master
+Updating f510f15..f6b7d5f
+Fast-forward
+ javascript2/add_yard_slots.js | 1 +
+ 1 file changed, 1 insertion(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 03:14:19 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   f6b7d5f..b82cb32  master     -> origin/master
+Updating f6b7d5f..b82cb32
+Fast-forward
+ javascript2/add_yard_slots.js | 1 -
+ 1 file changed, 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 03:16:04 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   b82cb32..c1b5f09  master     -> origin/master
+Updating b82cb32..c1b5f09
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 03:17:02 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   c1b5f09..10d9553  master     -> origin/master
+Updating c1b5f09..10d9553
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 03:18:08 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   10d9553..3d46b72  master     -> origin/master
+Updating 10d9553..3d46b72
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 03:23:44 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   3d46b72..f3b9936  master     -> origin/master
+Updating 3d46b72..f3b9936
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 03:24:27 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   f3b9936..5f9be49  master     -> origin/master
+Updating f3b9936..5f9be49
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 03:26:00 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   5f9be49..ba1bee4  master     -> origin/master
+Updating 5f9be49..ba1bee4
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 03:27:04 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   ba1bee4..8f2d529  master     -> origin/master
+Updating ba1bee4..8f2d529
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 03:28:02 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   8f2d529..8f11584  master     -> origin/master
+Updating 8f2d529..8f11584
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 03:29:48 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   8f11584..44b99a4  master     -> origin/master
+Updating 8f11584..44b99a4
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 14:33:30 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   44b99a4..4c11109  master     -> origin/master
+Updating 44b99a4..4c11109
+Fast-forward
+ add_yard_slots/index.html      | 22 ++++------------------
+ javascript2/add_yard_slots.js  | 11 +----------
+ stylesheets/add_yard_slots.css | 41 -----------------------------------------
+ 3 files changed, 5 insertions(+), 69 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 14:58:17 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   4c11109..f2dcf96  master     -> origin/master
+Updating 4c11109..f2dcf96
+Fast-forward
+ add_yard_slots/index.html      | 23 +++++++++++++++++++++--
+ javascript2/add_yard_slots.js  | 11 ++++++++++-
+ stylesheets/add_yard_slots.css | 41 +++++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 72 insertions(+), 3 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 15:00:09 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   f2dcf96..7a2c84d  master     -> origin/master
+Updating f2dcf96..7a2c84d
+Fast-forward
+ javascript2/add_yard_slots.js  | 3 ---
+ stylesheets/add_yard_slots.css | 2 +-
+ 2 files changed, 1 insertion(+), 4 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 15:01:05 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   7a2c84d..94eab82  master     -> origin/master
+Updating 7a2c84d..94eab82
+Fast-forward
+ stylesheets/add_yard_slots.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 15:02:11 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   94eab82..c13177e  master     -> origin/master
+Updating 94eab82..c13177e
+Fast-forward
+ stylesheets/add_yard_slots.css | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 15:03:44 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   c13177e..ac2b975  master     -> origin/master
+Updating c13177e..ac2b975
+Fast-forward
+ stylesheets/add_yard_slots.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 15:04:54 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   ac2b975..b801597  master     -> origin/master
+Updating ac2b975..b801597
+Fast-forward
+ add_yard_slots/index.html      | 2 +-
+ stylesheets/add_yard_slots.css | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 15:05:26 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   b801597..7a7a413  master     -> origin/master
+Updating b801597..7a7a413
+Fast-forward
+ stylesheets/add_yard_slots.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 15:05:54 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   7a7a413..922b09a  master     -> origin/master
+Updating 7a7a413..922b09a
+Fast-forward
+ stylesheets/add_yard_slots.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 15:08:35 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   922b09a..1fb9914  master     -> origin/master
+Updating 922b09a..1fb9914
+Fast-forward
+ javascript2/add_yard_slots.js | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 15:12:26 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   1fb9914..13c632d  master     -> origin/master
+Updating 1fb9914..13c632d
+Fast-forward
+ add_yard_slots/index.html     |  5 ++++-
+ javascript2/add_yard_slots.js | 12 ++++++++----
+ 2 files changed, 12 insertions(+), 5 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 15:13:14 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   13c632d..febe510  master     -> origin/master
+Updating 13c632d..febe510
+Fast-forward
+ add_yard_slots/index.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 15:17:12 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   febe510..3dc58e9  master     -> origin/master
+Updating febe510..3dc58e9
+Fast-forward
+ add_yard_slots/index.html     |  2 +-
+ javascript2/add_yard_slots.js | 11 +++++++++--
+ 2 files changed, 10 insertions(+), 3 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 15:20:25 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   3dc58e9..e0dddf0  master     -> origin/master
+Updating 3dc58e9..e0dddf0
+Fast-forward
+ add_yard_slots/index.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 15:25:55 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   e0dddf0..05b0e0e  master     -> origin/master
+Updating e0dddf0..05b0e0e
+Fast-forward
+ stylesheets/add_yard_slots.css | 1 +
+ 1 file changed, 1 insertion(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 15:27:27 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   05b0e0e..a2549f9  master     -> origin/master
+Updating 05b0e0e..a2549f9
+Fast-forward
+ javascript2/add_yard_slots.js  | 6 +++++-
+ stylesheets/add_yard_slots.css | 1 -
+ 2 files changed, 5 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 15:28:14 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   a2549f9..a412abd  master     -> origin/master
+Updating a2549f9..a412abd
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 17:38:59 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   a412abd..85a8870  master     -> origin/master
+Updating a412abd..85a8870
+Fast-forward
+ stylesheets/add_yard_slots.css | 5 +++++
+ 1 file changed, 5 insertions(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 17:43:34 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   85a8870..a030b45  master     -> origin/master
+Updating 85a8870..a030b45
+Fast-forward
+ stylesheets/styles.css | 1 +
+ 1 file changed, 1 insertion(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 17:46:23 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   a030b45..b5fc2b1  master     -> origin/master
+Updating a030b45..b5fc2b1
+Fast-forward
+ stylesheets/add_yard_slots.css | 1 +
+ stylesheets/styles.css         | 1 -
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 17:53:30 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   b5fc2b1..d8ab9e3  master     -> origin/master
+Updating b5fc2b1..d8ab9e3
+Fast-forward
+ .gitignore/deploy.sh | 5 +++++
+ 1 file changed, 5 insertions(+)
+ create mode 100644 .gitignore/deploy.sh
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 18:13:57 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   d8ab9e3..011a22e  master     -> origin/master
+Updating d8ab9e3..011a22e
+Fast-forward
+ .gitignore/deploy.sh           | 2 +-
+ stylesheets/add_yard_slots.css | 1 +
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 18:17:22 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   011a22e..f61f274  master     -> origin/master
+Updating 011a22e..f61f274
+Fast-forward
+ add_yard_slots/index.html      | 46 ++++++++++++++++++++++--------------------
+ deploy.sh                      |  5 +++++
+ stylesheets/add_yard_slots.css |  5 +++++
+ 3 files changed, 34 insertions(+), 22 deletions(-)
+ create mode 100644 deploy.sh
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 18:18:04 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   f61f274..8f849c0  master     -> origin/master
+Updating f61f274..8f849c0
+Fast-forward
+ add_yard_slots/index.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 18:18:26 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   8f849c0..3e23a87  master     -> origin/master
+Updating 8f849c0..3e23a87
+Fast-forward
+ add_yard_slots/index.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 18:21:59 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   3e23a87..3c8d0c1  master     -> origin/master
+Updating 3e23a87..3c8d0c1
+Fast-forward
+ add_yard_slots/index.html     |  2 +-
+ javascript2/add_yard_slots.js | 31 ++++++++++++++++++++++---------
+ 2 files changed, 23 insertions(+), 10 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 18:22:55 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   3c8d0c1..c396d94  master     -> origin/master
+Updating 3c8d0c1..c396d94
+Fast-forward
+ javascript2/add_yard_slots.js | 22 +++++++++++-----------
+ 1 file changed, 11 insertions(+), 11 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 18:23:46 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   c396d94..d91dfb7  master     -> origin/master
+Updating c396d94..d91dfb7
+Fast-forward
+ javascript2/add_yard_slots.js | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 18:24:22 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   d91dfb7..26fd37b  master     -> origin/master
+Updating d91dfb7..26fd37b
+Fast-forward
+ javascript2/add_yard_slots.js | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 18:28:49 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   26fd37b..3f1dbc9  master     -> origin/master
+Updating 26fd37b..3f1dbc9
+Fast-forward
+ javascript2/add_yard_slots.js | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 18:29:35 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   3f1dbc9..61bfc34  master     -> origin/master
+Updating 3f1dbc9..61bfc34
+Fast-forward
+ javascript2/add_yard_slots.js | 1 +
+ 1 file changed, 1 insertion(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 18:30:49 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   61bfc34..fff1cfa  master     -> origin/master
+Updating 61bfc34..fff1cfa
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 18:38:31 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   fff1cfa..10de7f9  master     -> origin/master
+Updating fff1cfa..10de7f9
+Fast-forward
+ javascript2/add_yard_slots.js | 12 ++++++++++--
+ 1 file changed, 10 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 18:40:00 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   10de7f9..fceac05  master     -> origin/master
+Updating 10de7f9..fceac05
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 18:40:35 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   fceac05..94f1fe8  master     -> origin/master
+Updating fceac05..94f1fe8
+Fast-forward
+ javascript2/add_yard_slots.js | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 18:41:16 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   94f1fe8..b292fac  master     -> origin/master
+Updating 94f1fe8..b292fac
+Fast-forward
+ javascript2/add_yard_slots.js | 1 -
+ 1 file changed, 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 18:45:28 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   b292fac..9f60281  master     -> origin/master
+Updating b292fac..9f60281
+Fast-forward
+ add_yard_slots/index.html     | 2 +-
+ javascript2/add_yard_slots.js | 8 ++++++++
+ 2 files changed, 9 insertions(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 18:45:48 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   9f60281..6e1be87  master     -> origin/master
+Updating 9f60281..6e1be87
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 18:49:10 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   6e1be87..155abc4  master     -> origin/master
+Updating 6e1be87..155abc4
+Fast-forward
+ javascript2/add_yard_slots.js | 9 ++-------
+ 1 file changed, 2 insertions(+), 7 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 18:52:59 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   155abc4..a7a44b6  master     -> origin/master
+Updating 155abc4..a7a44b6
+Fast-forward
+ javascript2/add_yard_slots.js | 10 +++++++---
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 18:55:31 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   a7a44b6..a5d251d  master     -> origin/master
+Updating a7a44b6..a5d251d
+Fast-forward
+ javascript2/add_yard_slots.js | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 18:56:41 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   a5d251d..1414531  master     -> origin/master
+Updating a5d251d..1414531
+Fast-forward
+ javascript2/add_yard_slots.js | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 19:01:02 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   1414531..217df54  master     -> origin/master
+Updating 1414531..217df54
+Fast-forward
+ add_yard_slots/index.html     | 4 ++++
+ javascript2/add_yard_slots.js | 4 ++--
+ 2 files changed, 6 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 19:02:02 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   217df54..bfcd872  master     -> origin/master
+Updating 217df54..bfcd872
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 19:02:38 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   bfcd872..a733526  master     -> origin/master
+Updating bfcd872..a733526
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 19:04:31 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   a733526..dc75a50  master     -> origin/master
+Updating a733526..dc75a50
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 19:11:27 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   dc75a50..bf65970  master     -> origin/master
+Updating dc75a50..bf65970
+Fast-forward
+ javascript2/add_yard_slots.js | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 19:14:16 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   bf65970..f313489  master     -> origin/master
+Updating bf65970..f313489
+Fast-forward
+ javascript2/add_yard_slots.js | 1 +
+ 1 file changed, 1 insertion(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 19:16:24 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   f313489..2596331  master     -> origin/master
+Updating f313489..2596331
+Fast-forward
+ javascript2/add_yard_slots.js | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 19:17:47 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   2596331..e2f7f4e  master     -> origin/master
+Updating 2596331..e2f7f4e
+Fast-forward
+ javascript2/add_yard_slots.js | 1 +
+ 1 file changed, 1 insertion(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 19:18:54 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   e2f7f4e..fd0a737  master     -> origin/master
+Updating e2f7f4e..fd0a737
+Fast-forward
+ javascript2/add_yard_slots.js | 1 +
+ 1 file changed, 1 insertion(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 19:25:48 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   fd0a737..aabf9a1  master     -> origin/master
+Updating fd0a737..aabf9a1
+Fast-forward
+ javascript2/add_yard_slots.js | 9 ++++++---
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 19:41:02 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   aabf9a1..946ddeb  master     -> origin/master
+Updating aabf9a1..946ddeb
+Fast-forward
+ javascript2/add_yard_slots.js | 3 +++
+ 1 file changed, 3 insertions(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 19:43:09 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   946ddeb..1fffa0c  master     -> origin/master
+Updating 946ddeb..1fffa0c
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 19:59:08 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   1fffa0c..68dea9f  master     -> origin/master
+Updating 1fffa0c..68dea9f
+Fast-forward
+ javascript2/add_yard_slots.js | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 20:05:36 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   68dea9f..89277ae  master     -> origin/master
+Updating 68dea9f..89277ae
+Fast-forward
+ javascript2/add_yard_slots.js | 44 +++++++++++++++++++++----------------------
+ 1 file changed, 21 insertions(+), 23 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 20:44:59 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   89277ae..b212195  master     -> origin/master
+Updating 89277ae..b212195
+Fast-forward
+ stylesheets/add_yard_slots.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 20:45:23 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+error: insufficient permission for adding an object to repository database .git/objects
+fatal: failed to write object
+fatal: unpack-objects failed
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 20:45:58 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+error: insufficient permission for adding an object to repository database .git/objects
+fatal: failed to write object
+fatal: unpack-objects failed
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 20:46:57 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+error: insufficient permission for adding an object to repository database .git/objects
+fatal: failed to write object
+fatal: unpack-objects failed
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 21:41:40 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+error: insufficient permission for adding an object to repository database .git/objects
+fatal: failed to write object
+fatal: unpack-objects failed
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 21:42:41 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+error: insufficient permission for adding an object to repository database .git/objects
+fatal: failed to write object
+fatal: unpack-objects failed
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+	javascript2/.add_yard_slots.js.swp
+
+nothing added to commit but untracked files present (use "git add" to track)
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 21:52:55 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+error: insufficient permission for adding an object to repository database .git/objects
+fatal: failed to write object
+fatal: unpack-objects failed
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 21:54:46 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+error: insufficient permission for adding an object to repository database .git/objects
+fatal: failed to write object
+fatal: unpack-objects failed
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 21:58:02 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+error: insufficient permission for adding an object to repository database .git/objects
+fatal: failed to write object
+fatal: unpack-objects failed
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 21:58:30 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+error: insufficient permission for adding an object to repository database .git/objects
+fatal: failed to write object
+fatal: unpack-objects failed
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:01:11 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+error: insufficient permission for adding an object to repository database .git/objects
+fatal: failed to write object
+fatal: unpack-objects failed
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:01:33 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+error: insufficient permission for adding an object to repository database .git/objects
+fatal: failed to write object
+fatal: unpack-objects failed
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:03:09 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+error: insufficient permission for adding an object to repository database .git/objects
+fatal: failed to write object
+fatal: unpack-objects failed
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:03:12 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+error: insufficient permission for adding an object to repository database .git/objects
+fatal: failed to write object
+fatal: unpack-objects failed
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:06:59 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   b212195..e260a6b  master     -> origin/master
+Updating b212195..e260a6b
+Fast-forward
+ javascript2/add_yard_slots.js  | 1 +
+ stylesheets/add_yard_slots.css | 3 ++-
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:07:43 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   e260a6b..83c15e2  master     -> origin/master
+Updating e260a6b..83c15e2
+Fast-forward
+ javascript2/add_yard_slots.js  | 1 -
+ stylesheets/add_yard_slots.css | 2 +-
+ 2 files changed, 1 insertion(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:10:02 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   83c15e2..aee566f  master     -> origin/master
+Updating 83c15e2..aee566f
+Fast-forward
+ add_yard_slots/index.html | 58 ++++++++++++++++++++++++-----------------------
+ 1 file changed, 30 insertions(+), 28 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:12:36 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   aee566f..6dda01e  master     -> origin/master
+Updating aee566f..6dda01e
+Fast-forward
+ add_yard_slots/index.html      | 3 +++
+ stylesheets/add_yard_slots.css | 5 +++++
+ 2 files changed, 8 insertions(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:14:28 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   6dda01e..5308ab6  master     -> origin/master
+Updating 6dda01e..5308ab6
+Fast-forward
+ add_yard_slots/index.html      | 22 +++++++++++-----------
+ stylesheets/add_yard_slots.css |  1 +
+ 2 files changed, 12 insertions(+), 11 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:19:53 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   5308ab6..9752f86  master     -> origin/master
+Updating 5308ab6..9752f86
+Fast-forward
+ add_yard_slots/index.html      | 6 ++----
+ javascript2/add_yard_slots.js  | 2 ++
+ stylesheets/add_yard_slots.css | 6 +++++-
+ 3 files changed, 9 insertions(+), 5 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:20:15 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   9752f86..38295c0  master     -> origin/master
+Updating 9752f86..38295c0
+Fast-forward
+ stylesheets/add_yard_slots.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:21:11 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   38295c0..1286bee  master     -> origin/master
+Updating 38295c0..1286bee
+Fast-forward
+ javascript2/add_yard_slots.js  | 2 +-
+ stylesheets/add_yard_slots.css | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:22:11 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   1286bee..ceca4a8  master     -> origin/master
+Updating 1286bee..ceca4a8
+Fast-forward
+ stylesheets/add_yard_slots.css | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:27:19 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   ceca4a8..928ca2b  master     -> origin/master
+Updating ceca4a8..928ca2b
+Fast-forward
+ javascript2/add_yard_slots.js | 6 ++++++
+ 1 file changed, 6 insertions(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:28:03 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   928ca2b..648c924  master     -> origin/master
+Updating 928ca2b..648c924
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:28:45 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   648c924..3089569  master     -> origin/master
+Updating 648c924..3089569
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:29:42 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   3089569..251d0d1  master     -> origin/master
+Updating 3089569..251d0d1
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:32:06 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   251d0d1..7bb5f15  master     -> origin/master
+Updating 251d0d1..7bb5f15
+Fast-forward
+ javascript2/add_yard_slots.js | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:33:07 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   7bb5f15..e2df696  master     -> origin/master
+Updating 7bb5f15..e2df696
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:34:36 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   e2df696..48580ec  master     -> origin/master
+Updating e2df696..48580ec
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:36:48 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   48580ec..38288a4  master     -> origin/master
+Updating 48580ec..38288a4
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:39:19 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   38288a4..640f824  master     -> origin/master
+Updating 38288a4..640f824
+Fast-forward
+ javascript2/add_yard_slots.js | 1 +
+ 1 file changed, 1 insertion(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:39:41 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   640f824..57ebbbf  master     -> origin/master
+Updating 640f824..57ebbbf
+Fast-forward
+ javascript2/add_yard_slots.js | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:42:16 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   57ebbbf..2280471  master     -> origin/master
+Updating 57ebbbf..2280471
+Fast-forward
+ add_yard_slots/index.html     | 1 +
+ javascript2/add_yard_slots.js | 2 +-
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:43:52 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   2280471..0160b9b  master     -> origin/master
+Updating 2280471..0160b9b
+Fast-forward
+ javascript2/add_yard_slots.js | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:44:37 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   0160b9b..c9443ae  master     -> origin/master
+Updating 0160b9b..c9443ae
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:52:45 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   c9443ae..b10ec3d  master     -> origin/master
+Updating c9443ae..b10ec3d
+Fast-forward
+ javascript2/add_yard_slots.js | 50 +++++++++++++++++++++++++++++++++++++++++--
+ 1 file changed, 48 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:56:59 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   b10ec3d..1d12429  master     -> origin/master
+Updating b10ec3d..1d12429
+Fast-forward
+ javascript2/add_yard_slots.js | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:58:14 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   1d12429..d75a41e  master     -> origin/master
+Updating 1d12429..d75a41e
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 22:59:36 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   d75a41e..b3097c5  master     -> origin/master
+Updating d75a41e..b3097c5
+Fast-forward
+ add_yard_slots/index.html | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 23:02:15 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   b3097c5..3f125e5  master     -> origin/master
+Updating b3097c5..3f125e5
+Fast-forward
+ add_yard_slots/index.html     | 6 +++---
+ javascript2/add_yard_slots.js | 2 +-
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 23:03:10 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   3f125e5..c529f87  master     -> origin/master
+Updating 3f125e5..c529f87
+Fast-forward
+ add_yard_slots/index.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 23:05:24 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   c529f87..12429a5  master     -> origin/master
+Updating c529f87..12429a5
+Fast-forward
+ add_yard_slots/index.html     | 2 +-
+ javascript2/add_yard_slots.js | 5 +----
+ 2 files changed, 2 insertions(+), 5 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 23:07:25 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   12429a5..e32a2d6  master     -> origin/master
+Updating 12429a5..e32a2d6
+Fast-forward
+ javascript2/add_yard_slots.js | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 23:09:11 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   e32a2d6..852c704  master     -> origin/master
+Updating e32a2d6..852c704
+Fast-forward
+ javascript2/add_yard_slots.js | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 23:11:21 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   852c704..82e1083  master     -> origin/master
+Updating 852c704..82e1083
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 23:11:43 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   82e1083..438b7b6  master     -> origin/master
+Updating 82e1083..438b7b6
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 23:12:12 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   438b7b6..27f9e87  master     -> origin/master
+Updating 438b7b6..27f9e87
+Fast-forward
+ javascript2/add_yard_slots.js | 1 -
+ 1 file changed, 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 23:16:16 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   27f9e87..11fcad6  master     -> origin/master
+Updating 27f9e87..11fcad6
+Fast-forward
+ javascript2/add_yard_slots.js  | 15 +--------------
+ stylesheets/add_yard_slots.css |  4 ++++
+ 2 files changed, 5 insertions(+), 14 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 23:18:24 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   11fcad6..d771a0a  master     -> origin/master
+Updating 11fcad6..d771a0a
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 23:23:02 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   d771a0a..f6399c4  master     -> origin/master
+Updating d771a0a..f6399c4
+Fast-forward
+ javascript2/add_yard_slots.js | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 23:33:48 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   f6399c4..fb40d97  master     -> origin/master
+Updating f6399c4..fb40d97
+Fast-forward
+ javascript2/add_yard_slots.js | 18 ++++++++++++------
+ 1 file changed, 12 insertions(+), 6 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 23:37:34 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   fb40d97..2d016ff  master     -> origin/master
+Updating fb40d97..2d016ff
+Fast-forward
+ javascript2/add_yard_slots.js | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 23:50:41 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   2d016ff..00633cb  master     -> origin/master
+Updating 2d016ff..00633cb
+Fast-forward
+ javascript2/add_yard_slots.js | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 23:51:35 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   00633cb..6e79dc6  master     -> origin/master
+Updating 00633cb..6e79dc6
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 23:56:28 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   6e79dc6..ece97d0  master     -> origin/master
+Updating 6e79dc6..ece97d0
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-17 23:59:17 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   ece97d0..b60064f  master     -> origin/master
+Updating ece97d0..b60064f
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 00:00:41 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   b60064f..17c5b66  master     -> origin/master
+Updating b60064f..17c5b66
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 00:23:19 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   17c5b66..1db6089  master     -> origin/master
+Updating 17c5b66..1db6089
+Fast-forward
+ add_yard_slots/index.html | 4 ++++
+ 1 file changed, 4 insertions(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 00:25:55 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   1db6089..e9c50d2  master     -> origin/master
+Updating 1db6089..e9c50d2
+Fast-forward
+ add_yard_slots/index.html | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 00:53:26 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   e9c50d2..eca2aa1  master     -> origin/master
+Updating e9c50d2..eca2aa1
+Fast-forward
+ add_yard_slots/index.html      | 10 ++++++----
+ stylesheets/add_yard_slots.css |  6 ++++++
+ 2 files changed, 12 insertions(+), 4 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 00:53:57 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   eca2aa1..4429c74  master     -> origin/master
+Updating eca2aa1..4429c74
+Fast-forward
+ stylesheets/add_yard_slots.css | 1 -
+ 1 file changed, 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 00:54:16 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   4429c74..7e27b7e  master     -> origin/master
+Updating 4429c74..7e27b7e
+Fast-forward
+ add_yard_slots/index.html | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 00:54:43 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   7e27b7e..a538ee7  master     -> origin/master
+Updating 7e27b7e..a538ee7
+Fast-forward
+ stylesheets/add_yard_slots.css | 1 +
+ 1 file changed, 1 insertion(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 00:56:28 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   a538ee7..6d2ffd2  master     -> origin/master
+Updating a538ee7..6d2ffd2
+Fast-forward
+ add_yard_slots/index.html      | 4 ++--
+ stylesheets/add_yard_slots.css | 4 ++++
+ 2 files changed, 6 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 01:00:23 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   6d2ffd2..e409745  master     -> origin/master
+Updating 6d2ffd2..e409745
+Fast-forward
+ stylesheets/add_yard_slots.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 01:01:30 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   e409745..9fbcfaf  master     -> origin/master
+Updating e409745..9fbcfaf
+Fast-forward
+ stylesheets/add_yard_slots.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 02:00:29 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   9fbcfaf..7b73aa8  master     -> origin/master
+Updating 9fbcfaf..7b73aa8
+Fast-forward
+ javascript2/add_yard_slots.js | 14 ++++++++++----
+ 1 file changed, 10 insertions(+), 4 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 02:01:59 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   7b73aa8..00c2e1b  master     -> origin/master
+Updating 7b73aa8..00c2e1b
+Fast-forward
+ javascript2/add_yard_slots.js | 1 +
+ 1 file changed, 1 insertion(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 02:09:16 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   00c2e1b..6d3f515  master     -> origin/master
+Updating 00c2e1b..6d3f515
+Fast-forward
+ javascript2/add_yard_slots.js | 11 ++++++-----
+ 1 file changed, 6 insertions(+), 5 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 02:09:54 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   6d3f515..7262d71  master     -> origin/master
+Updating 6d3f515..7262d71
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 02:10:57 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   7262d71..7d48c46  master     -> origin/master
+Updating 7262d71..7d48c46
+Fast-forward
+ javascript2/add_yard_slots.js | 1 +
+ 1 file changed, 1 insertion(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 15:39:26 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   7d48c46..2b41157  master     -> origin/master
+Updating 7d48c46..2b41157
+Fast-forward
+ stylesheets/add_yard_slots.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 15:42:51 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   2b41157..c892559  master     -> origin/master
+Updating 2b41157..c892559
+Fast-forward
+ javascript2/add_yard_slots.js | 9 +++------
+ 1 file changed, 3 insertions(+), 6 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 15:43:31 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   c892559..8d9e5dc  master     -> origin/master
+Updating c892559..8d9e5dc
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 15:44:40 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   8d9e5dc..4d5833d  master     -> origin/master
+Updating 8d9e5dc..4d5833d
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 15:47:55 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   4d5833d..080eb96  master     -> origin/master
+Updating 4d5833d..080eb96
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 15:49:02 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   080eb96..88b457b  master     -> origin/master
+Updating 080eb96..88b457b
+Fast-forward
+ add_yard_slots/index.html | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 15:50:55 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   88b457b..7a7f381  master     -> origin/master
+Updating 88b457b..7a7f381
+Fast-forward
+ javascript2/add_yard_slots.js | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 15:51:39 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   7a7f381..621a775  master     -> origin/master
+Updating 7a7f381..621a775
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 15:51:56 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   621a775..7fc359c  master     -> origin/master
+Updating 621a775..7fc359c
+Fast-forward
+ add_yard_slots/index.html | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 15:59:06 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   7fc359c..489703f  master     -> origin/master
+Updating 7fc359c..489703f
+Fast-forward
+ javascript2/add_yard_slots.js | 12 +++++++++++-
+ 1 file changed, 11 insertions(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:00:53 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   489703f..aa77aaf  master     -> origin/master
+Updating 489703f..aa77aaf
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:02:56 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   aa77aaf..c7f022a  master     -> origin/master
+Updating aa77aaf..c7f022a
+Fast-forward
+ javascript2/add_yard_slots.js | 4 ++++
+ 1 file changed, 4 insertions(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:03:35 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   c7f022a..d627f80  master     -> origin/master
+Updating c7f022a..d627f80
+Fast-forward
+ javascript2/add_yard_slots.js | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:13:27 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   d627f80..266ec2b  master     -> origin/master
+Updating d627f80..266ec2b
+Fast-forward
+ javascript2/add_yard_slots.js | 46 +++++++++++++++++++++----------------------
+ 1 file changed, 23 insertions(+), 23 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:16:40 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   266ec2b..5393ac3  master     -> origin/master
+Updating 266ec2b..5393ac3
+Fast-forward
+ javascript2/add_yard_slots.js | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:17:14 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   5393ac3..f18e365  master     -> origin/master
+Updating 5393ac3..f18e365
+Fast-forward
+ javascript2/add_yard_slots.js | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:18:52 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   f18e365..fed9b7e  master     -> origin/master
+Updating f18e365..fed9b7e
+Fast-forward
+ javascript2/add_yard_slots.js | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:19:22 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   fed9b7e..dbe2928  master     -> origin/master
+Updating fed9b7e..dbe2928
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:19:49 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   dbe2928..f8f429d  master     -> origin/master
+Updating dbe2928..f8f429d
+Fast-forward
+ javascript2/add_yard_slots.js | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:20:53 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   f8f429d..271aedb  master     -> origin/master
+Updating f8f429d..271aedb
+Fast-forward
+ javascript2/add_yard_slots.js | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:21:07 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   271aedb..d841c0b  master     -> origin/master
+Updating 271aedb..d841c0b
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:21:45 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   d841c0b..0276023  master     -> origin/master
+Updating d841c0b..0276023
+Fast-forward
+ javascript2/add_yard_slots.js | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:29:28 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   0276023..582b727  master     -> origin/master
+Updating 0276023..582b727
+Fast-forward
+ add_yard_slots/index.html     | 6 +++---
+ javascript2/add_yard_slots.js | 8 ++++++--
+ 2 files changed, 9 insertions(+), 5 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:31:36 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   582b727..d5af05c  master     -> origin/master
+Updating 582b727..d5af05c
+Fast-forward
+ add_yard_slots/index.html      | 7 +++----
+ stylesheets/add_yard_slots.css | 1 +
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:44:29 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   d5af05c..5a77add  master     -> origin/master
+Updating d5af05c..5a77add
+Fast-forward
+ stylesheets/add_yard_slots.css | 4 ++++
+ 1 file changed, 4 insertions(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:44:43 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   5a77add..b020150  master     -> origin/master
+Updating 5a77add..b020150
+Fast-forward
+ stylesheets/add_yard_slots.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:45:22 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   b020150..1c65be7  master     -> origin/master
+Updating b020150..1c65be7
+Fast-forward
+ stylesheets/add_yard_slots.css | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:46:25 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   1c65be7..9c46a15  master     -> origin/master
+Updating 1c65be7..9c46a15
+Fast-forward
+ stylesheets/add_yard_slots.css | 1 +
+ 1 file changed, 1 insertion(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:47:18 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   9c46a15..fbc013c  master     -> origin/master
+Updating 9c46a15..fbc013c
+Fast-forward
+ stylesheets/add_yard_slots.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:48:18 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   fbc013c..a1a33ad  master     -> origin/master
+Updating fbc013c..a1a33ad
+Fast-forward
+ stylesheets/add_yard_slots.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:49:22 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   a1a33ad..da76239  master     -> origin/master
+Updating a1a33ad..da76239
+Fast-forward
+ add_yard_slots/index.html | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:50:50 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   da76239..7d53b4f  master     -> origin/master
+Updating da76239..7d53b4f
+Fast-forward
+ add_yard_slots/index.html | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:51:14 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   7d53b4f..3781720  master     -> origin/master
+Updating 7d53b4f..3781720
+Fast-forward
+ add_yard_slots/index.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:52:38 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   3781720..c00103b  master     -> origin/master
+Updating 3781720..c00103b
+Fast-forward
+ add_yard_slots/index.html      | 2 +-
+ stylesheets/add_yard_slots.css | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:55:41 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   c00103b..281849e  master     -> origin/master
+Updating c00103b..281849e
+Fast-forward
+ javascript2/add_yard_slots.js  | 1 +
+ stylesheets/add_yard_slots.css | 6 +++++-
+ 2 files changed, 6 insertions(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:56:13 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   281849e..68cac96  master     -> origin/master
+Updating 281849e..68cac96
+Fast-forward
+ add_yard_slots/index.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:57:52 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   68cac96..6b7af28  master     -> origin/master
+Updating 68cac96..6b7af28
+Fast-forward
+ javascript2/add_yard_slots.js  |  1 -
+ stylesheets/add_yard_slots.css | 15 ++++++++-------
+ 2 files changed, 8 insertions(+), 8 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:58:30 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   6b7af28..5b8ebc5  master     -> origin/master
+Updating 6b7af28..5b8ebc5
+Fast-forward
+ stylesheets/add_yard_slots.css | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:58:53 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   5b8ebc5..637adaa  master     -> origin/master
+Updating 5b8ebc5..637adaa
+Fast-forward
+ stylesheets/add_yard_slots.css | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 16:59:41 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   637adaa..6a1315e  master     -> origin/master
+Updating 637adaa..6a1315e
+Fast-forward
+ stylesheets/add_yard_slots.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 17:01:04 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   6a1315e..00081d4  master     -> origin/master
+Updating 6a1315e..00081d4
+Fast-forward
+ add_yard_slots/index.html      | 2 +-
+ stylesheets/add_yard_slots.css | 4 ----
+ 2 files changed, 1 insertion(+), 5 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 17:03:16 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   00081d4..453d599  master     -> origin/master
+Updating 00081d4..453d599
+Fast-forward
+ javascript2/add_yard_slots.js | 5 +++++
+ 1 file changed, 5 insertions(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 17:05:16 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   453d599..583e642  master     -> origin/master
+Updating 453d599..583e642
+Fast-forward
+ javascript2/add_yard_slots.js | 12 +++++++++++-
+ 1 file changed, 11 insertions(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 17:06:24 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   583e642..b74cc46  master     -> origin/master
+Updating 583e642..b74cc46
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 17:07:16 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   b74cc46..65a4ded  master     -> origin/master
+Updating b74cc46..65a4ded
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 17:07:54 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   65a4ded..554c054  master     -> origin/master
+Updating 65a4ded..554c054
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 17:08:38 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   554c054..d573726  master     -> origin/master
+Updating 554c054..d573726
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 17:12:47 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   d573726..6039441  master     -> origin/master
+Updating d573726..6039441
+Fast-forward
+ javascript2/add_yard_slots.js | 27 ++++++++++++++-------------
+ 1 file changed, 14 insertions(+), 13 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 17:13:45 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   6039441..9c873db  master     -> origin/master
+Updating 6039441..9c873db
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 17:28:46 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   9c873db..c301710  master     -> origin/master
+Updating 9c873db..c301710
+Fast-forward
+ javascript2/add_yard_slots.js | 80 +++++++++++++++++++++++--------------------
+ 1 file changed, 43 insertions(+), 37 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 17:33:49 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   c301710..8fe138e  master     -> origin/master
+Updating c301710..8fe138e
+Fast-forward
+ add_yard_slots/index.html | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 17:39:09 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   8fe138e..bbc6d4c  master     -> origin/master
+Updating 8fe138e..bbc6d4c
+Fast-forward
+ javascript2/add_yard_slots.js | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 17:40:30 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   bbc6d4c..e84f08e  master     -> origin/master
+Updating bbc6d4c..e84f08e
+Fast-forward
+ javascript2/add_yard_slots.js | 3 +++
+ 1 file changed, 3 insertions(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 17:41:52 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   e84f08e..213217e  master     -> origin/master
+Updating e84f08e..213217e
+Fast-forward
+ javascript2/add_yard_slots.js | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 17:42:14 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   213217e..5175c5d  master     -> origin/master
+Updating 213217e..5175c5d
+Fast-forward
+ javascript2/add_yard_slots.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 17:43:02 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   5175c5d..a2f328e  master     -> origin/master
+Updating 5175c5d..a2f328e
+Fast-forward
+ javascript2/add_yard_slots.js | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 17:50:33 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   a2f328e..f5f84c8  master     -> origin/master
+Updating a2f328e..f5f84c8
+Fast-forward
+ javascript2/add_yard_slots.js | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 17:51:06 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   f5f84c8..750afa4  master     -> origin/master
+Updating f5f84c8..750afa4
+Fast-forward
+ javascript2/add_yard_slots.js | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 17:53:09 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   750afa4..6727197  master     -> origin/master
+Updating 750afa4..6727197
+Fast-forward
+ javascript2/add_yard_slots.js | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-18 17:54:42 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   6727197..1171a3b  master     -> origin/master
+Updating 6727197..1171a3b
+Fast-forward
+ javascript2/add_yard_slots.js | 8 ++------
+ 1 file changed, 2 insertions(+), 6 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
