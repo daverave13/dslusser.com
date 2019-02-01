@@ -15,6 +15,7 @@ if (!window.location.hash) {
   fitbitAccessToken = fragmentQueryParameters.access_token;
 }
 
+let respArray = [];
 async function fetchBMI(strDate, i) {
   var url = 'https://api.fitbit.com/1/user/-/body/log/weight/date/' + strDate + '.json';
   var bearer = 'Bearer ' + fitbitAccessToken;
