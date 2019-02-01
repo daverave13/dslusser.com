@@ -50,7 +50,7 @@ function daysAgo(num) {
 for (var i = 6; i >= 0; i--) {
   fetchBMI(daysAgo(i), i);
   updateBMIHeader(daysAgo(i));
-  updateBMIData(i);
+  //updateBMIData(i);
 }
 
 console.log(respArray[0]);
