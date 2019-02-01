@@ -53,4 +53,4 @@ for (var i = 6; i >= 0; i--) {
   updateBMIData(i);
 }
 
-console.log(respArray);
+console.log(respArray[0]);
