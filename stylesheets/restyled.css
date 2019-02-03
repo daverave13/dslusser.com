@@ -36,6 +36,8 @@
   width: 100%;
   background-color: #ff240c;
   transform: rotate(-45deg);
+  position: relative;
+  z-index: 8;
 }
 
 .gray {
