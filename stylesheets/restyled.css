@@ -23,6 +23,10 @@ body {
   background-color: skyblue;
 }
 
+.corner {
+  border-radius: 5px;
+}
+
 .purple {
   height: 254px;
   width: 100%;
