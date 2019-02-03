@@ -20,7 +20,7 @@
 html {
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(skyblue, pink);
+  background-image: url('../img/bg.jpg');
 }
 
 
