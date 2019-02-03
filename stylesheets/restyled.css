@@ -17,9 +17,9 @@
 }
 
 .purple-shadow {
-  height: 350px;
+  height: 20px;
   width: 100%;
-  margin-left: -695px;
+  margin-left: 0px;
   background-color: #5e117a;
   transform: rotate(-45deg);
 }
