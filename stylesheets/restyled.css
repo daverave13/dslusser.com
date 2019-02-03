@@ -15,7 +15,7 @@
   background-color: #9016bc;
   transform: rotate(-45deg);
   position: absolute;
-  z-index: 10;
+  z-index: 0;
 }
 
 .purple-shadow {
@@ -25,7 +25,7 @@
   background-color: #5e117a;
   transform: rotate(-45deg);
   position: absolute;
-  z-index: 9;
+  z-index: 10;
 }
 
 .red {
