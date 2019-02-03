@@ -1,5 +1,5 @@
 const arr = ['1','2','3']
 
-function populateLinks (arr) {
+function populateLinks() {
   console.log('asdf');
 }
