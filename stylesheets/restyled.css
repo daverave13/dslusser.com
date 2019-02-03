@@ -22,4 +22,5 @@
   background-color: #ff240c;
   margin: 10px;
   transform: rotate(-45deg);
+  z-index: 20;
 }
