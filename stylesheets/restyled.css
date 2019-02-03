@@ -35,7 +35,7 @@ body {
   background-color: #ff240c;
   transform: rotate(-45deg);
   position: relative;
-  z-index: 8;
+  z-index: 7;
 }
 
 .red-shadow {
@@ -45,7 +45,7 @@ body {
   background-color: #ba1503;
   transform: rotate(-45deg);
   position: relative;
-  z-index: 7;
+  z-index: 6;
 }
 
 .gray {
@@ -54,5 +54,5 @@ body {
   width: 100%;
   background-color: #5e5e5e;
   position: absolute;
-  z-index: 1;
+  z-index: 7;
 }
