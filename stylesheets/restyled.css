@@ -16,6 +16,14 @@
   transform: rotate(-45deg);
 }
 
+.purple-shadow {
+  height: 250px;
+  width: 100%;
+  margin-left: -695px;
+  background-color: #5e117a;
+  transform: rotate(-45deg);
+}
+
 .red {
   height: 25px;
   margin-top: 0px;
