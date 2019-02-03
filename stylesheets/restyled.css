@@ -9,7 +9,7 @@
 }
 
 .purple {
-  height: 5px;
+  height: 15px;
   width: 100%;
   margin-top: 245px;
   background-color: #9016bc
@@ -20,6 +20,6 @@
   height: 5px;
   width: 100%;
   background-color: #ff240c;
-  margin-top: 10px;
+  margin: 10px;
   transform: rotate(-45deg);
 }
