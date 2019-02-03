@@ -3,12 +3,12 @@
     margin-top: 100%;
     width: 100%;
     }
-  90% {
-    margin-top: 150px;
+  98% {
+    margin-top: 175px;
     width: 100%;
     }
   100% {
-    margin-top: 155px;
+    margin-top: 150px;
     width: 100%;
   }
 }
@@ -64,7 +64,7 @@ body {
 }
 
 .gray {
-  margin-top: 155px;
+  margin-top: 150px;
   height: 500px;
   width: 100%;
   background-color: #5e5e5e;
