@@ -17,15 +17,12 @@
   display: grid;
 }
 
-body {
+blue {
   height: 100%;
   width: 100%;
-  background-color: skyblue;
+  background-color: linear-gradient(skyblue, pink);
 }
 
-.corner {
-  border-radius: 5px;
-}
 
 .purple {
   height: 254px;
