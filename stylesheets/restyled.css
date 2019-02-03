@@ -40,6 +40,16 @@
   z-index: 8;
 }
 
+.red-shadow {
+  height: 25px;
+  margin-left: -400px;
+  width: 100%;
+  background-color: #750f04;
+  transform: rotate(-45deg);
+  position: relative;
+  z-index: 8;
+}
+
 .gray {
   margin-top: -200px;
   height: 500px;
