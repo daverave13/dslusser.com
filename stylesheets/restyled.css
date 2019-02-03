@@ -13,6 +13,7 @@
   width: 100%;
   margin-top: 10px;
   background-color: #9016bc;
+  z-index: 20;
   transform: rotate(-45deg);
 }
 
@@ -22,5 +23,4 @@
   background-color: #ff240c;
   margin: 10px;
   transform: rotate(-45deg);
-  z-index: 20;
 }
