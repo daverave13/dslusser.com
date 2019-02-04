@@ -35,9 +35,9 @@ html {
 }
 
 .purple-shadow {
-  height: 20px;
+  height: 2%;
   width: 100%;
-  margin-left: -410px;
+  margin-left: -31%;
   background-color: #77149b;
   transform: rotate(-45deg);
   position: relative;
@@ -45,22 +45,22 @@ html {
 }
 
 .red {
-  height: 25px;
-  margin-left: -405px;
+  height: 10%;
+  margin-left: -34%;
   width: 100%;
   background-color: #ff240c;
   transform: rotate(-45deg);
-  position: relative;
+  position: absolute;
   z-index: 7;
 }
 
 .red-shadow {
-  height: 25px;
-  margin-left: -425px;
+  height: 2%;
+  margin-left: -28.8%;
   width: 100%;
   background-color: #ba1503;
   transform: rotate(-45deg);
-  position: relative;
+  position: absolute;
   z-index: 6;
 }
 
