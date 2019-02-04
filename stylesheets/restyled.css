@@ -32,7 +32,7 @@ html {
   transform: rotate(-45deg);
   position: absolute;
   z-index: 10;
-  border-bottom: 1em solid #77149b;
+  border-bottom: 0.75em solid #77149b;
 }
 
 .red {
@@ -43,7 +43,7 @@ html {
   transform: rotate(-45deg);
   position: absolute;
   z-index: 8;
-  border-bottom: 1em solid #ba1503;
+  border-bottom: 0.75em solid #ba1503;
 }
 
 .gray {
@@ -52,7 +52,7 @@ html {
   width: 100%;
   background-color: #5e5e5e;
   position: absolute;
-  z-index: 7;
+  z-index: 9;
   animation-duration: 1.5s;
   animation-name: slideup;
 }
