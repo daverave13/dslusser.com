@@ -32,16 +32,7 @@ html {
   transform: rotate(-45deg);
   position: absolute;
   z-index: 10;
-}
-
-.purple-shadow {
-  height: 2%;
-  width: 100%;
-  margin-left: -31%;
-  background-color: #77149b;
-  transform: rotate(-45deg);
-  position: relative;
-  z-index: 9;
+  border-bottom: 2% solid #77149b;
 }
 
 .red {
