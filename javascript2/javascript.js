@@ -13,7 +13,7 @@ function sleep(ms) {
     }, function(){
     $(".thumbnail-title").css("background-color", "pink");
 }); */
- 
+
 function updateGreeting() {
   var d = new Date();
   var h = d.getHours();
@@ -68,7 +68,7 @@ function updateGreeting() {
   else {
     var holiday = "";
   }
-  $("#greeting").html(greeting);
+  $("#greeting").html('invoice batch number is on outpt_orders table.');
   $("#holiday").html(holiday);
 }
 
@@ -104,7 +104,7 @@ function easterEgg() {
     let bgColor = '#'+Math.floor(Math.random()*16777215).toString(16);
     $("body").css("background-color",bgColor);
   });
-  $(window).bind('mousewheel DOMMouseScroll', function(event) { 
+  $(window).bind('mousewheel DOMMouseScroll', function(event) {
     if (event.originalEvent.wheelDelta > 0 || event.originalEvent.detail < 0) {
       let bgImgSize = ($("body").css("background-size"));
       let bgImgVal = Number(bgImgSize.substring(0,bgImgSize.length-1));
@@ -113,8 +113,8 @@ function easterEgg() {
         bgImgSize = bgImgVal + '%';
         $("body").css("background-size", bgImgSize);
         //$("body").css("background-repeat", "no-repeat");
-        } 
-      else { 
+        }
+      else {
         bgImgSize = String(bgImgVal - 5) + "%";
         //$("body").css("background-repeat", "repeat");
         $("body").css("background-size", bgImgSize);
@@ -128,8 +128,8 @@ function easterEgg() {
         bgImgSize = bgImgVal + '%';
         $("body").css("background-size", bgImgSize);
         //$("body").css("background-repeat", "no-repeat");
-        } 
-      else { 
+        }
+      else {
         bgImgSize = String(bgImgVal + 5) + "%";
         //$("body").css("background-repeat", "repeat");
         $("body").css("background-size", bgImgSize);
@@ -266,4 +266,3 @@ function funcStart() {
   }
 }
  */
- 
