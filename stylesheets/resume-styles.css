@@ -72,6 +72,10 @@ header a, header p {
   list-style: circle;
 }
 
+.detail:last-child {
+  margin-bottom: 10%;
+}
+
 .date {
   float: right;
   clear: left;
