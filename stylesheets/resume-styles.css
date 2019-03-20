@@ -46,6 +46,10 @@ header a, header p {
   font-family: helvetica;
 }
 
+li {
+  max-width: 40%;
+}
+
 .resume-header {
   color: white;
   /* display: flex;
