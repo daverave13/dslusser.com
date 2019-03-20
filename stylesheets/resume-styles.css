@@ -59,6 +59,7 @@ header a, header p {
     flex-direction: column;
     justify-content: space-around;
     padding-left: 30%;
+    padding-right: 30%;
 }
 
 .item-title {
