@@ -47,7 +47,7 @@ header a, header p {
 }
 
 li {
-  max-width: 40%;
+  max-width: 40px;
 }
 
 .resume-header {
