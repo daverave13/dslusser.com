@@ -44,8 +44,6 @@ header a, header p {
   font-family: helvetica;
 }
 
-
-
 .resume-header {
   color: white;
   /* display: flex;
@@ -62,16 +60,13 @@ header a, header p {
 
 .item-title {
   color: #fff;
+  margin: 0 30% 0;
 }
 
 .item-title h4 {
   padding: 0;
   margin: 0;
 }
-
-
-
-
 
 .detail ul {
   list-style: circle;
