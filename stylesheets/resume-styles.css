@@ -54,14 +54,14 @@ header a, header p {
 }
 
 .main-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .item-title {
   color: #fff;
-  margin: 0 30% 0;
+  margin: 0 20% 0;
 }
 
 .item-title h4 {
