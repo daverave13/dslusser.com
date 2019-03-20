@@ -2,6 +2,7 @@
     font-family: Helvetica;
     animation-duration: 1.5s;
     animation-name: slideup;
+    height: 100%;
 }
 
 @keyframes slideup {
