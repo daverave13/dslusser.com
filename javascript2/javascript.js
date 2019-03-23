@@ -68,7 +68,7 @@ function updateGreeting() {
   else {
     var holiday = "";
   }
-  $("#greeting").html('invoice batch number is on outpt_orders table.');
+  $("#greeting").html('Be more like Mac Miller.');
   $("#holiday").html(holiday);
 }
 
