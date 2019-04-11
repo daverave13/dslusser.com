@@ -68,7 +68,7 @@ function updateGreeting() {
   else {
     var holiday = "";
   }
-  $("#greeting").html('Be more like Mac Miller.');
+  $("#greeting").html('An imperfect plan violently executed is better than a perfect plan never started.');
   $("#holiday").html(holiday);
 }
 
