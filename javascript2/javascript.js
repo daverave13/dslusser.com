@@ -143,6 +143,8 @@ function easterEgg() {
 }
 
 let loadLink = () => {
+  console.log('loadLink Running');
+  
   let linkString = '';
   let linkArr =  [
   {
