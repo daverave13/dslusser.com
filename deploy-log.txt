@@ -6828,3 +6828,5563 @@ $ git submodule status
 $ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
 system restart required
 
+####### 2019-01-31 18:19:24 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   1171a3b..ba34143  master     -> origin/master
+Already up-to-date.
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-01-31 19:26:05 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   ba34143..728ef11  master     -> origin/master
+Updating ba34143..728ef11
+Fast-forward
+ img/anydo-logo.png | Bin 0 -> 6370 bytes
+ index.html         |  30 +++++++++++++++---------------
+ 2 files changed, 15 insertions(+), 15 deletions(-)
+ create mode 100644 img/anydo-logo.png
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-01 15:47:39 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   728ef11..9fc1c9a  master     -> origin/master
+Updating 728ef11..9fc1c9a
+Fast-forward
+ javascript2/boot.js | 98 +++++++++++++++++++++++++++++------------------------
+ 1 file changed, 54 insertions(+), 44 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-01 15:48:41 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   9fc1c9a..7d05074  master     -> origin/master
+Updating 9fc1c9a..7d05074
+Fast-forward
+ javascript2/boot.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-01 15:49:40 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   7d05074..be187dd  master     -> origin/master
+Updating 7d05074..be187dd
+Fast-forward
+ javascript2/boot.js | 1 +
+ 1 file changed, 1 insertion(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-01 15:50:08 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   be187dd..aef3617  master     -> origin/master
+Updating be187dd..aef3617
+Fast-forward
+ javascript2/boot.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-01 15:50:37 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   aef3617..bf0c9e0  master     -> origin/master
+Updating aef3617..bf0c9e0
+Fast-forward
+ javascript2/boot.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 17:41:06 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   bf0c9e0..67a31ed  master     -> origin/master
+Updating bf0c9e0..67a31ed
+Fast-forward
+ javascript2/restyled.js  |  0
+ restyled.html            | 31 +++++++++++++++++++++++++++++++
+ stylesheets/restyled.css |  3 +++
+ 3 files changed, 34 insertions(+)
+ create mode 100644 javascript2/restyled.js
+ create mode 100644 restyled.html
+ create mode 100644 stylesheets/restyled.css
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 17:43:28 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   67a31ed..b3ae176  master     -> origin/master
+Updating 67a31ed..b3ae176
+Fast-forward
+ restyled.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:01:17 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   b3ae176..db0bdea  master     -> origin/master
+Updating b3ae176..db0bdea
+Fast-forward
+ restyled.html            |  6 +++++-
+ stylesheets/restyled.css | 13 +++++++++++++
+ 2 files changed, 18 insertions(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:04:18 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   db0bdea..5564c44  master     -> origin/master
+Updating db0bdea..5564c44
+Fast-forward
+ stylesheets/restyled.css | 7 +++++++
+ 1 file changed, 7 insertions(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:04:50 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   5564c44..6679bdd  master     -> origin/master
+Updating 5564c44..6679bdd
+Fast-forward
+ restyled.html | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:06:02 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   6679bdd..9248c4b  master     -> origin/master
+Updating 6679bdd..9248c4b
+Fast-forward
+ restyled.html | 7 ++-----
+ 1 file changed, 2 insertions(+), 5 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:06:37 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   9248c4b..990ac65  master     -> origin/master
+Updating 9248c4b..990ac65
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:07:23 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   990ac65..21eb225  master     -> origin/master
+Updating 990ac65..21eb225
+Fast-forward
+ restyled.html | 7 +++++--
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:07:54 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   21eb225..0a256ef  master     -> origin/master
+Updating 21eb225..0a256ef
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:08:43 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   0a256ef..e587abe  master     -> origin/master
+Updating 0a256ef..e587abe
+Fast-forward
+ stylesheets/restyled.css | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:10:43 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   e587abe..fb8a4fe  master     -> origin/master
+Updating e587abe..fb8a4fe
+Fast-forward
+ stylesheets/restyled.css | 4 ++++
+ 1 file changed, 4 insertions(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:12:14 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   fb8a4fe..830216c  master     -> origin/master
+Updating fb8a4fe..830216c
+Fast-forward
+ stylesheets/restyled.css | 7 +++----
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:17:08 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   830216c..4b93b81  master     -> origin/master
+Updating 830216c..4b93b81
+Fast-forward
+ javascript2/boot.js      | 110 +++++++++++++++++++++++------------------------
+ restyled.html            |  76 ++++++++++++++++----------------
+ stylesheets/restyled.css |  50 ++++++++++-----------
+ 3 files changed, 118 insertions(+), 118 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:18:06 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   4b93b81..8863623  master     -> origin/master
+Updating 4b93b81..8863623
+Fast-forward
+ restyled.html | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:19:17 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   8863623..eecf5f2  master     -> origin/master
+Updating 8863623..eecf5f2
+Fast-forward
+ restyled.html | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:20:12 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   eecf5f2..e9667b7  master     -> origin/master
+Updating eecf5f2..e9667b7
+Fast-forward
+ restyled.html | 7 ++-----
+ 1 file changed, 2 insertions(+), 5 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:20:34 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   e9667b7..1f0af90  master     -> origin/master
+Updating e9667b7..1f0af90
+Fast-forward
+ restyled.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:21:12 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   1f0af90..0f4701f  master     -> origin/master
+Updating 1f0af90..0f4701f
+Fast-forward
+ restyled.html            | 2 +-
+ stylesheets/restyled.css | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:21:59 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   0f4701f..249376a  master     -> origin/master
+Updating 0f4701f..249376a
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:22:26 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   249376a..16b852b  master     -> origin/master
+Updating 249376a..16b852b
+Fast-forward
+ stylesheets/restyled.css | 1 +
+ 1 file changed, 1 insertion(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:22:53 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   16b852b..ca78cd4  master     -> origin/master
+Updating 16b852b..ca78cd4
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:23:35 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   ca78cd4..44d6418  master     -> origin/master
+Updating ca78cd4..44d6418
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:24:09 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   44d6418..fd17b0e  master     -> origin/master
+Updating 44d6418..fd17b0e
+Fast-forward
+ restyled.html            | 2 +-
+ stylesheets/restyled.css | 1 -
+ 2 files changed, 1 insertion(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:24:34 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   fd17b0e..e12bf4a  master     -> origin/master
+Updating fd17b0e..e12bf4a
+Fast-forward
+ stylesheets/restyled.css | 1 -
+ 1 file changed, 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:26:05 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   e12bf4a..613d703  master     -> origin/master
+Updating e12bf4a..613d703
+Fast-forward
+ restyled.html            | 3 +++
+ stylesheets/restyled.css | 5 +++++
+ 2 files changed, 8 insertions(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:26:30 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   613d703..a2a1c16  master     -> origin/master
+Updating 613d703..a2a1c16
+Fast-forward
+ stylesheets/restyled.css | 1 +
+ 1 file changed, 1 insertion(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:27:22 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   a2a1c16..01c530c  master     -> origin/master
+Updating a2a1c16..01c530c
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:27:46 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   01c530c..c652e90  master     -> origin/master
+Updating 01c530c..c652e90
+Fast-forward
+ stylesheets/restyled.css | 1 +
+ 1 file changed, 1 insertion(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:28:06 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   c652e90..9a93d93  master     -> origin/master
+Updating c652e90..9a93d93
+Fast-forward
+ stylesheets/restyled.css | 1 -
+ 1 file changed, 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:28:52 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   9a93d93..401f7ab  master     -> origin/master
+Updating 9a93d93..401f7ab
+Fast-forward
+ stylesheets/restyled.css | 1 +
+ 1 file changed, 1 insertion(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:29:21 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   401f7ab..65eb176  master     -> origin/master
+Updating 401f7ab..65eb176
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:29:58 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   65eb176..7cdbdc9  master     -> origin/master
+Updating 65eb176..7cdbdc9
+Fast-forward
+ stylesheets/restyled.css | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:30:50 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   7cdbdc9..107d4f7  master     -> origin/master
+Updating 7cdbdc9..107d4f7
+Fast-forward
+ stylesheets/restyled.css | 1 +
+ 1 file changed, 1 insertion(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:31:20 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   107d4f7..dc7a834  master     -> origin/master
+Updating 107d4f7..dc7a834
+Fast-forward
+ stylesheets/restyled.css | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:32:23 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   dc7a834..19bd240  master     -> origin/master
+Updating dc7a834..19bd240
+Fast-forward
+ stylesheets/restyled.css | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:32:33 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   19bd240..d0b13ee  master     -> origin/master
+Updating 19bd240..d0b13ee
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:33:30 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   d0b13ee..45a4b3c  master     -> origin/master
+Updating d0b13ee..45a4b3c
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:34:01 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   45a4b3c..1753687  master     -> origin/master
+Updating 45a4b3c..1753687
+Fast-forward
+ stylesheets/restyled.css | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:34:31 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   1753687..e150495  master     -> origin/master
+Updating 1753687..e150495
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:35:00 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   e150495..238b016  master     -> origin/master
+Updating e150495..238b016
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:35:20 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   238b016..f14c1fd  master     -> origin/master
+Updating 238b016..f14c1fd
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:35:46 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   f14c1fd..64fec0e  master     -> origin/master
+Updating f14c1fd..64fec0e
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:36:09 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   64fec0e..18df3fb  master     -> origin/master
+Updating 64fec0e..18df3fb
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:37:54 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   18df3fb..dfe00e0  master     -> origin/master
+Updating 18df3fb..dfe00e0
+Fast-forward
+ stylesheets/restyled.css | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:39:26 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   dfe00e0..2bdbbd8  master     -> origin/master
+Updating dfe00e0..2bdbbd8
+Fast-forward
+ restyled.html            | 1 +
+ stylesheets/restyled.css | 2 +-
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:39:55 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   2bdbbd8..62d0c90  master     -> origin/master
+Updating 2bdbbd8..62d0c90
+Fast-forward
+ stylesheets/restyled.css | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:40:19 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   62d0c90..29a91ad  master     -> origin/master
+Updating 62d0c90..29a91ad
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:40:40 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   29a91ad..baaf953  master     -> origin/master
+Updating 29a91ad..baaf953
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:40:56 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   baaf953..c5d5a99  master     -> origin/master
+Updating baaf953..c5d5a99
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:41:20 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   c5d5a99..1a1d00e  master     -> origin/master
+Updating c5d5a99..1a1d00e
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:41:38 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   1a1d00e..d0a8e09  master     -> origin/master
+Updating 1a1d00e..d0a8e09
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:42:16 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   d0a8e09..6e32542  master     -> origin/master
+Updating d0a8e09..6e32542
+Fast-forward
+ stylesheets/restyled.css | 2 ++
+ 1 file changed, 2 insertions(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:42:47 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   6e32542..041ddcc  master     -> origin/master
+Updating 6e32542..041ddcc
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:43:36 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   041ddcc..681922c  master     -> origin/master
+Updating 041ddcc..681922c
+Fast-forward
+ stylesheets/restyled.css | 2 ++
+ 1 file changed, 2 insertions(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:44:57 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   681922c..2298451  master     -> origin/master
+Updating 681922c..2298451
+Fast-forward
+ stylesheets/restyled.css | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:45:33 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   2298451..e93af61  master     -> origin/master
+Updating 2298451..e93af61
+Fast-forward
+ stylesheets/restyled.css | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:45:55 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   e93af61..a1cd0e6  master     -> origin/master
+Updating e93af61..a1cd0e6
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:47:53 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   a1cd0e6..4ba12ed  master     -> origin/master
+Updating a1cd0e6..4ba12ed
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:48:17 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   4ba12ed..c7d1a5d  master     -> origin/master
+Updating 4ba12ed..c7d1a5d
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:49:03 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   c7d1a5d..02f0d01  master     -> origin/master
+Updating c7d1a5d..02f0d01
+Fast-forward
+ stylesheets/restyled.css | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:49:28 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   02f0d01..32b4076  master     -> origin/master
+Updating 02f0d01..32b4076
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:53:07 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   32b4076..704c44a  master     -> origin/master
+Updating 32b4076..704c44a
+Fast-forward
+ stylesheets/restyled.css | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:54:25 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   704c44a..adb5759  master     -> origin/master
+Updating 704c44a..adb5759
+Fast-forward
+ stylesheets/restyled.css | 2 ++
+ 1 file changed, 2 insertions(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:55:26 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   adb5759..de8dd36  master     -> origin/master
+Updating adb5759..de8dd36
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:57:11 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   de8dd36..9c7b7a5  master     -> origin/master
+Updating de8dd36..9c7b7a5
+Fast-forward
+ stylesheets/restyled.css | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:57:44 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   9c7b7a5..f1a659b  master     -> origin/master
+Updating 9c7b7a5..f1a659b
+Fast-forward
+ restyled.html | 2 ++
+ 1 file changed, 2 insertions(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:58:28 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   f1a659b..f7ccfe8  master     -> origin/master
+Updating f1a659b..f7ccfe8
+Fast-forward
+ stylesheets/restyled.css | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 18:58:46 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   f7ccfe8..399e799  master     -> origin/master
+Updating f7ccfe8..399e799
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:01:31 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   399e799..e45576b  master     -> origin/master
+Updating 399e799..e45576b
+Fast-forward
+ stylesheets/restyled.css | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:01:54 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   e45576b..469ed35  master     -> origin/master
+Updating e45576b..469ed35
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:02:39 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   469ed35..e7221f8  master     -> origin/master
+Updating 469ed35..e7221f8
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:03:09 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   e7221f8..90f4117  master     -> origin/master
+Updating e7221f8..90f4117
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:05:03 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   90f4117..484a1cf  master     -> origin/master
+Updating 90f4117..484a1cf
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:06:08 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   484a1cf..b775e1a  master     -> origin/master
+Updating 484a1cf..b775e1a
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:07:01 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   b775e1a..1d14b93  master     -> origin/master
+Updating b775e1a..1d14b93
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:07:36 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   1d14b93..4c8b3a0  master     -> origin/master
+Updating 1d14b93..4c8b3a0
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:08:34 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   4c8b3a0..5237a2e  master     -> origin/master
+Updating 4c8b3a0..5237a2e
+Fast-forward
+ stylesheets/restyled.css | 2 ++
+ 1 file changed, 2 insertions(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:08:57 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   5237a2e..2b95598  master     -> origin/master
+Updating 5237a2e..2b95598
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:10:29 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   2b95598..e79f542  master     -> origin/master
+Updating 2b95598..e79f542
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:13:40 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   e79f542..2373784  master     -> origin/master
+Updating e79f542..2373784
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:15:21 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   2373784..afedd07  master     -> origin/master
+Updating 2373784..afedd07
+Fast-forward
+ stylesheets/restyled.css | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:16:07 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   afedd07..ca4caa1  master     -> origin/master
+Updating afedd07..ca4caa1
+Fast-forward
+ stylesheets/restyled.css | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:17:26 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   ca4caa1..ab1b45e  master     -> origin/master
+Updating ca4caa1..ab1b45e
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:19:10 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   ab1b45e..ba227c0  master     -> origin/master
+Updating ab1b45e..ba227c0
+Fast-forward
+ stylesheets/restyled.css | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:29:45 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   ba227c0..9453abe  master     -> origin/master
+Updating ba227c0..9453abe
+Fast-forward
+ stylesheets/restyled.css | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:30:49 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   9453abe..0d61e0f  master     -> origin/master
+Updating 9453abe..0d61e0f
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:31:34 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   0d61e0f..65f38b5  master     -> origin/master
+Updating 0d61e0f..65f38b5
+Fast-forward
+ stylesheets/restyled.css | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:32:10 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   65f38b5..a0c6878  master     -> origin/master
+Updating 65f38b5..a0c6878
+Fast-forward
+ stylesheets/restyled.css | 1 +
+ 1 file changed, 1 insertion(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:33:26 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   a0c6878..f45e620  master     -> origin/master
+Updating a0c6878..f45e620
+Fast-forward
+ stylesheets/restyled.css | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:33:53 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   f45e620..114b24f  master     -> origin/master
+Updating f45e620..114b24f
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:35:00 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   114b24f..baf82a8  master     -> origin/master
+Updating 114b24f..baf82a8
+Fast-forward
+ stylesheets/restyled.css | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:36:01 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   baf82a8..34aee6a  master     -> origin/master
+Updating baf82a8..34aee6a
+Fast-forward
+ stylesheets/restyled.css | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:37:08 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   34aee6a..a22eca5  master     -> origin/master
+Updating 34aee6a..a22eca5
+Fast-forward
+ stylesheets/restyled.css | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:37:41 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   a22eca5..0fd0c40  master     -> origin/master
+Updating a22eca5..0fd0c40
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:38:38 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   0fd0c40..48e4f10  master     -> origin/master
+Updating 0fd0c40..48e4f10
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:39:05 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   48e4f10..ba5c694  master     -> origin/master
+Updating 48e4f10..ba5c694
+Fast-forward
+ stylesheets/restyled.css | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:39:31 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   ba5c694..6700cc1  master     -> origin/master
+Updating ba5c694..6700cc1
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:41:00 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   6700cc1..9e7fb96  master     -> origin/master
+Updating 6700cc1..9e7fb96
+Fast-forward
+ restyled.html            | 2 +-
+ stylesheets/restyled.css | 4 ++++
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:43:49 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   9e7fb96..6e0b720  master     -> origin/master
+Updating 9e7fb96..6e0b720
+Fast-forward
+ restyled.html            | 3 +--
+ stylesheets/restyled.css | 7 ++-----
+ 2 files changed, 3 insertions(+), 7 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:44:10 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   6e0b720..f5b15b6  master     -> origin/master
+Updating 6e0b720..f5b15b6
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:44:45 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   f5b15b6..5a052c9  master     -> origin/master
+Updating f5b15b6..5a052c9
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:45:48 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   5a052c9..abd56d2  master     -> origin/master
+Updating 5a052c9..abd56d2
+Fast-forward
+ restyled.html            | 4 ++--
+ stylesheets/restyled.css | 4 ++--
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:46:39 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   abd56d2..ef232db  master     -> origin/master
+Updating abd56d2..ef232db
+Fast-forward
+ stylesheets/restyled.css | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:47:03 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   ef232db..edccae5  master     -> origin/master
+Updating ef232db..edccae5
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:47:44 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   edccae5..fdb818c  master     -> origin/master
+Updating edccae5..fdb818c
+Fast-forward
+ stylesheets/restyled.css | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:49:14 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   fdb818c..12ca878  master     -> origin/master
+Updating fdb818c..12ca878
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:49:59 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   12ca878..e4da3f5  master     -> origin/master
+Updating 12ca878..e4da3f5
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:50:33 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   e4da3f5..b27bf8b  master     -> origin/master
+Updating e4da3f5..b27bf8b
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:54:29 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   b27bf8b..b305496  master     -> origin/master
+Updating b27bf8b..b305496
+Fast-forward
+ img/bg.jpg               | Bin 0 -> 770601 bytes
+ stylesheets/restyled.css |   2 +-
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ create mode 100644 img/bg.jpg
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:55:22 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   b305496..92c4cf6  master     -> origin/master
+Updating b305496..92c4cf6
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 19:55:45 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   92c4cf6..e060fc5  master     -> origin/master
+Updating 92c4cf6..e060fc5
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 20:02:05 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   e060fc5..e3dba25  master     -> origin/master
+Updating e060fc5..e3dba25
+Fast-forward
+ javascript2/restyled.js | 7 +++++++
+ restyled.html           | 2 ++
+ 2 files changed, 9 insertions(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 20:02:29 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   e3dba25..d0f589d  master     -> origin/master
+Updating e3dba25..d0f589d
+Fast-forward
+ restyled.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 20:02:59 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   d0f589d..c5f1af4  master     -> origin/master
+Updating d0f589d..c5f1af4
+Fast-forward
+ javascript2/restyled.js | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 20:03:34 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   c5f1af4..8f00cda  master     -> origin/master
+Updating c5f1af4..8f00cda
+Fast-forward
+ restyled.html | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 20:04:42 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   8f00cda..afcf43c  master     -> origin/master
+Updating 8f00cda..afcf43c
+Fast-forward
+ restyled.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 20:06:41 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   afcf43c..87b05b6  master     -> origin/master
+Updating afcf43c..87b05b6
+Fast-forward
+ javascript2/restyled.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 20:08:26 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   87b05b6..4c5e91f  master     -> origin/master
+Updating 87b05b6..4c5e91f
+Fast-forward
+ restyled.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 20:09:30 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   4c5e91f..3aba104  master     -> origin/master
+Updating 4c5e91f..3aba104
+Fast-forward
+ javascript2/restyled.js | 2 +-
+ restyled.html           | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 20:09:59 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   3aba104..98f4c74  master     -> origin/master
+Updating 3aba104..98f4c74
+Fast-forward
+ javascript2/restyled.js | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 20:10:28 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   98f4c74..f0443d2  master     -> origin/master
+Updating 98f4c74..f0443d2
+Fast-forward
+ javascript2/restyled.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 20:11:00 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   f0443d2..70d34ae  master     -> origin/master
+Updating f0443d2..70d34ae
+Fast-forward
+ javascript2/restyled.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 20:11:37 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   70d34ae..fd1bdb0  master     -> origin/master
+Updating 70d34ae..fd1bdb0
+Fast-forward
+ javascript2/restyled.js | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 20:12:25 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   fd1bdb0..706fa9b  master     -> origin/master
+Updating fd1bdb0..706fa9b
+Fast-forward
+ javascript2/restyled.js | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 20:12:40 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   706fa9b..9952658  master     -> origin/master
+Updating 706fa9b..9952658
+Fast-forward
+ javascript2/restyled.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-03 20:16:41 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   9952658..a987499  master     -> origin/master
+Updating 9952658..a987499
+Fast-forward
+ javascript2/restyled.js | 8 +++-----
+ 1 file changed, 3 insertions(+), 5 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-04 18:31:38 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   a987499..52f9938  master     -> origin/master
+Updating a987499..52f9938
+Fast-forward
+ javascript2/restyled.js  | 4 ----
+ stylesheets/restyled.css | 2 +-
+ 2 files changed, 1 insertion(+), 5 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-04 18:32:12 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   52f9938..b83b727  master     -> origin/master
+Updating 52f9938..b83b727
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-04 18:32:49 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   b83b727..b016323  master     -> origin/master
+Updating b83b727..b016323
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-04 18:34:49 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   b016323..8d523e1  master     -> origin/master
+Updating b016323..8d523e1
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-04 18:50:04 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   8d523e1..6cf7fb9  master     -> origin/master
+Updating 8d523e1..6cf7fb9
+Fast-forward
+ restyled.html            |  5 +++--
+ stylesheets/restyled.css | 16 ++++++++--------
+ 2 files changed, 11 insertions(+), 10 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-04 19:41:57 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   6cf7fb9..bbef2c2  master     -> origin/master
+Updating 6cf7fb9..bbef2c2
+Fast-forward
+ restyled.html            |  5 +----
+ stylesheets/restyled.css | 11 +----------
+ 2 files changed, 2 insertions(+), 14 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-04 19:43:54 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   bbef2c2..b5345c3  master     -> origin/master
+Updating bbef2c2..b5345c3
+Fast-forward
+ stylesheets/restyled.css | 15 +++------------
+ 1 file changed, 3 insertions(+), 12 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-04 19:44:46 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   b5345c3..60ecd25  master     -> origin/master
+Updating b5345c3..60ecd25
+Fast-forward
+ stylesheets/restyled.css | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-04 19:47:24 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   60ecd25..4648ab6  master     -> origin/master
+Updating 60ecd25..4648ab6
+Fast-forward
+ stylesheets/restyled.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-02-13 22:33:52 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   4648ab6..4c8c26b  master     -> origin/master
+Updating 4648ab6..4c8c26b
+Fast-forward
+ javascript2/javascript.js | 15 +++++++--------
+ 1 file changed, 7 insertions(+), 8 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-03-20 16:47:24 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   4c8c26b..9ac415f  master     -> origin/master
+Updating 4c8c26b..9ac415f
+Fast-forward
+ resume.html | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-03-20 16:52:37 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   9ac415f..e8a7428  master     -> origin/master
+Updating 9ac415f..e8a7428
+Fast-forward
+ resume.html | 30 +++++++++++++++++++++++++++++-
+ 1 file changed, 29 insertions(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-03-20 16:53:51 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   e8a7428..413cd72  master     -> origin/master
+Updating e8a7428..413cd72
+Fast-forward
+ resume.html | 2 ++
+ 1 file changed, 2 insertions(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-03-20 17:00:53 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   413cd72..3d09cbe  master     -> origin/master
+Updating 413cd72..3d09cbe
+Fast-forward
+ resume.html | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-03-20 17:35:21 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   3d09cbe..b174033  master     -> origin/master
+Updating 3d09cbe..b174033
+Fast-forward
+ resume.html | 23 +++++++++++------------
+ 1 file changed, 11 insertions(+), 12 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-03-20 17:40:03 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   b174033..817098b  master     -> origin/master
+Updating b174033..817098b
+Fast-forward
+ stylesheets/resume-styles.css | 1 +
+ 1 file changed, 1 insertion(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-03-20 17:41:04 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   817098b..7394a8e  master     -> origin/master
+Updating 817098b..7394a8e
+Fast-forward
+ stylesheets/resume-styles.css | 1 +
+ 1 file changed, 1 insertion(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-03-20 17:42:18 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   7394a8e..c8ef121  master     -> origin/master
+Updating 7394a8e..c8ef121
+Fast-forward
+ stylesheets/resume-styles.css | 4 ++++
+ 1 file changed, 4 insertions(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-03-20 17:42:50 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   c8ef121..9ac959c  master     -> origin/master
+Updating c8ef121..9ac959c
+Fast-forward
+ stylesheets/resume-styles.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-03-20 17:43:28 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   9ac959c..0c3689f  master     -> origin/master
+Updating 9ac959c..0c3689f
+Fast-forward
+ stylesheets/resume-styles.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-03-20 17:50:07 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   0c3689f..5c6b446  master     -> origin/master
+Updating 0c3689f..5c6b446
+Fast-forward
+ stylesheets/resume-styles.css | 16 +++-------------
+ 1 file changed, 3 insertions(+), 13 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-03-20 17:53:26 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   5c6b446..239b348  master     -> origin/master
+Updating 5c6b446..239b348
+Fast-forward
+ stylesheets/resume-styles.css | 7 +------
+ 1 file changed, 1 insertion(+), 6 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-03-20 17:57:28 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   239b348..58087e0  master     -> origin/master
+Updating 239b348..58087e0
+Fast-forward
+ resume.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-03-20 18:01:32 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   58087e0..3e48937  master     -> origin/master
+Updating 58087e0..3e48937
+Fast-forward
+ stylesheets/resume-styles.css | 4 ++++
+ 1 file changed, 4 insertions(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-03-20 18:02:48 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   3e48937..5939e12  master     -> origin/master
+Updating 3e48937..5939e12
+Fast-forward
+ stylesheets/resume-styles.css | 1 +
+ 1 file changed, 1 insertion(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-03-20 18:15:42 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   5939e12..6ac981b  master     -> origin/master
+Updating 5939e12..6ac981b
+Fast-forward
+ stylesheets/resume-styles.css | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-03-20 18:16:07 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   6ac981b..204952d  master     -> origin/master
+Updating 6ac981b..204952d
+Fast-forward
+ stylesheets/resume-styles.css | 1 -
+ 1 file changed, 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-03-20 18:17:10 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   204952d..6dd7750  master     -> origin/master
+Updating 204952d..6dd7750
+Fast-forward
+ resume.html | 3 ---
+ 1 file changed, 3 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-03-20 18:19:30 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   6dd7750..14b2e49  master     -> origin/master
+Updating 6dd7750..14b2e49
+Fast-forward
+ resume.html | 44 ++++++++++++++++++++++----------------------
+ 1 file changed, 22 insertions(+), 22 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-03-20 18:22:18 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   14b2e49..dd4a044  master     -> origin/master
+Updating 14b2e49..dd4a044
+Fast-forward
+ resume.html                   | 3 +++
+ stylesheets/resume-styles.css | 6 ++----
+ 2 files changed, 5 insertions(+), 4 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-03-20 18:23:12 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   dd4a044..30d28ed  master     -> origin/master
+Updating dd4a044..30d28ed
+Fast-forward
+ stylesheets/resume-styles.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-03-20 18:24:01 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   30d28ed..b71bc0c  master     -> origin/master
+Updating 30d28ed..b71bc0c
+Fast-forward
+ stylesheets/resume-styles.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-03-20 18:32:41 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   b71bc0c..3f05b98  master     -> origin/master
+Updating b71bc0c..3f05b98
+Fast-forward
+ resume.html | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-03-20 18:35:55 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   3f05b98..810bb9d  master     -> origin/master
+Updating 3f05b98..810bb9d
+Fast-forward
+ resume.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-03-20 23:31:19 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   810bb9d..24cbb3c  master     -> origin/master
+Updating 810bb9d..24cbb3c
+Fast-forward
+ resume.html | 1 -
+ 1 file changed, 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-03-23 05:48:17 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   24cbb3c..04de0f5  master     -> origin/master
+Updating 24cbb3c..04de0f5
+Fast-forward
+ img/udemy-logo.png | Bin 0 -> 106674 bytes
+ index.html         |   6 +++---
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+ create mode 100644 img/udemy-logo.png
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-03-23 08:29:33 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   04de0f5..4696081  master     -> origin/master
+Updating 04de0f5..4696081
+Fast-forward
+ javascript2/javascript.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-04-11 16:19:54 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   4696081..2c67bf3  master     -> origin/master
+Updating 4696081..2c67bf3
+Fast-forward
+ javascript2/javascript.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-05-17 21:48:22 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   2c67bf3..8fb1af2  master     -> origin/master
+Updating 2c67bf3..8fb1af2
+Fast-forward
+ index.html                | 51 +---------------------------------
+ javascript2/javascript.js | 70 +++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 71 insertions(+), 50 deletions(-)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	snek/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-05-17 21:51:58 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   8fb1af2..6cbbb59  master     -> origin/master
+Updating 8fb1af2..6cbbb59
+Fast-forward
+ javascript2/javascript.js | 2 ++
+ 1 file changed, 2 insertions(+)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	snek/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-05-17 22:19:39 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   6cbbb59..2ddb35c  master     -> origin/master
+Updating 6cbbb59..2ddb35c
+Fast-forward
+ Snake/hammer.js  | 2643 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Snake/index.html |   16 +
+ Snake/snake.css  |   23 +
+ Snake/snake.js   |  200 +++++
+ 4 files changed, 2882 insertions(+)
+ create mode 100644 Snake/hammer.js
+ create mode 100644 Snake/index.html
+ create mode 100644 Snake/snake.css
+ create mode 100644 Snake/snake.js
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	snek/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-05-17 22:25:19 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   2ddb35c..f2f2fc0  master     -> origin/master
+Updating 2ddb35c..f2f2fc0
+Fast-forward
+ Snake/hammer.js  | 2643 ------------------------------------------------------
+ Snake/index.html |   16 -
+ Snake/snake.css  |   23 -
+ Snake/snake.js   |  200 -----
+ 4 files changed, 2882 deletions(-)
+ delete mode 100644 Snake/hammer.js
+ delete mode 100644 Snake/index.html
+ delete mode 100644 Snake/snake.css
+ delete mode 100644 Snake/snake.js
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	snek/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-05-17 22:28:28 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   f2f2fc0..d1f8931  master     -> origin/master
+error: The following untracked working tree files would be overwritten by merge:
+	snek/hammer.js
+	snek/index.html
+	snek/snake.css
+	snek/snake.js
+Please move or remove them before you can merge.
+Aborting
+Updating f2f2fc0..d1f8931
+$ git status
+On branch master
+Your branch is behind 'origin/master' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	snek/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-05-17 22:38:37 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   d1f8931..8663553  master     -> origin/master
+error: The following untracked working tree files would be overwritten by merge:
+	snek/hammer.js
+	snek/index.html
+	snek/snake.css
+	snek/snake.js
+Please move or remove them before you can merge.
+Aborting
+Updating f2f2fc0..8663553
+$ git status
+On branch master
+Your branch is behind 'origin/master' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	snek/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
