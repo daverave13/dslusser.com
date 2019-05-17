@@ -194,7 +194,7 @@ function main() {
         }   
         // Call main again
         main();
-    }, 125)
+    }, 100)
 }
 
 main();
