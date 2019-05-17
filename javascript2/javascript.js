@@ -142,12 +142,82 @@ function easterEgg() {
   });
 }
 
+let loadLink = () => {
+  let linkString = '';
+  let linkArr =  [
+  {
+    link: "https://old.reddit.com",
+    imgSrc: "img/Reddit_logo.png",
+    alt: "Reddit",
+    title: "Reddit"
+  },
+  {
+    link: "https://www.youtube.com/",
+    imgSrc: "img/youtube-logo.png",
+    alt: "YouTube",
+    title: "YouTube"
+  },
+  {
+    link: "https://amazon.com",
+    imgSrc: "img/amazon-logo.png",
+    alt: "Amazon",
+    title: "Amazon"
+  },
+  {
+    link: "https://netflix.com",
+    imgSrc: "img/netflix-logo.png",
+    alt: "Netflix",
+    title: "Netflix"
+  },
+  {
+    link: "https://evernote.com",
+    imgSrc: "img/evernote-logo.png",
+    alt: "Evernote",
+    title: "Evernote"
+  },
+  {
+    link: "https://udemy.com",
+    imgSrc: "img/udemy-logo.png",
+    alt: "Udemy",
+    title: "Udemy"
+  },
+  {
+    link: "https://codecademy.com",
+    imgSrc: "img/codecademy-logo.png",
+    alt: "Codecademy",
+    title: "Codecademy"
+  }  ,
+  {
+    link: "https://messages.google.com/web/conversations",
+    imgSrc: "img/messages-logo.png",
+    alt: "Google Messages",
+    title: "Messages"
+  }     
+]
+
+linkArr.sort((a, b) => (a.title > b.title) ? 1 : -1)
+
+for (let i = 0; i <= linkArr.length-1; i++) {
+  linkString += `
+  <li class="thumbnail-item">
+    <a class="link-style" href="${linkArr[i].link}">
+      <img class="thumbnail-image" src="${linkArr[i].imgSrc}" alt="${linkArr[i].alt}">
+      <span class="thumbnail-title">${linkArr[i].title}</span>
+    </a>
+  </li>`
+}
+
+  let target = document.getElementById("columnOne");
+  target.innerHTML = linkString;
+}
+
 function funcStart() {
   easterEgg();
   updateGreeting();
   toggleManh();
   toggleManhDev();
   toggleManhUat();
+  loadLink();
 }
 
 //Old code that I don't want to throw away goes below this line
