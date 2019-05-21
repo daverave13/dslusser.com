@@ -12388,3 +12388,85 @@ $ git submodule status
 $ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
 system restart required
 
+####### 2019-05-17 22:43:00 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   8663553..3f00c41  master     -> origin/master
+Already up-to-date.
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-05-17 22:45:43 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   3f00c41..cc5a195  master     -> origin/master
+error: unable to unlink old 'snek/snake.js' (Permission denied)
+Updating 3f00c41..cc5a195
+$ git status
+On branch master
+Your branch is behind 'origin/master' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
+####### 2019-05-17 22:55:57 #######
+$ echo $PWD
+/var/www/html
+$ whoami
+www-data
+$ git pull
+From https://github.com/daverave13/dslusser.com
+   cc5a195..eda4140  master     -> origin/master
+error: unable to unlink old 'snek/snake.js' (Permission denied)
+Updating 3f00c41..eda4140
+$ git status
+On branch master
+Your branch is behind 'origin/master' by 3 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   deploy-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git submodule sync
+
+$ git submodule update
+
+$ git submodule status
+
+$ test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"
+system restart required
+
