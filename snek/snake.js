@@ -159,9 +159,10 @@ let collisionDetection = () => {
     // position. If the length is ever greater than 1 that means the snake
     // has collided with itself.
     let selfCollision = temp.filter(function(snakePart) {
-        return (snakePart.x === head.x &&  snakePart.y === head.y);
+        return (snakePart.x === head.x && snakePart.y === head.y);
     });
 
+    // This checks selfCollision length as well as boundary collision
     return (
         head.x < gameCanvas.width
             && head.y < gameCanvas.height 
