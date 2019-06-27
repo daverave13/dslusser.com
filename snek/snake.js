@@ -68,8 +68,8 @@ const growSnake = () => {
 
 const randomFood = () => {
     food = {
-        x: (Math.floor(Math.random() * ((gameCanvas.width/10)-10)) + 1) * 10,
-        y: (Math.floor(Math.random() * ((gameCanvas.height/10)-10)) + 1) * 10
+        x: (Math.floor(Math.random() * ((gameCanvas.width/10)))) * 10,
+        y: (Math.floor(Math.random() * ((gameCanvas.height/10)))) * 10
     }
 }
 
@@ -195,7 +195,7 @@ function main() {
         }   
         // Call main again
         main();
-    }, 100)
+    }, 60)
 }
 
 main();
