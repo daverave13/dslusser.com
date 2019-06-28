@@ -134,20 +134,27 @@ const right = () => {
     }
 }
 
+/* Sometimes two direction changes in rapid succession  would cause the second move
+   to overwrite the first move and the first move wasn't being carried out at all. 
+   This caused the snake head to do a 180 and collide with the body and ended the 
+   game. To avoid this I added moveQueue. Every move gets pushed on to the back 
+   of the queue and then the main function calls and shifts whatever move is in 
+   moveQueue[0]. This ensures that each move is executed in order and solves the problem. */
+
+let moveQueue = [right];
+
 window.onkeydown = function(e) {
     var key = e.keyCode ? e.keyCode : e.which;
     if (key === 38) { // Up
-        up();
+        moveQueue.push(up);
     } else if (key === 37) { // Left
-        left();
+        moveQueue.push(left);
     } else if (key === 39) { // Right
-        right();
+        moveQueue.push(right);        
     } else if (key === 40) { // Down
-        down();
+        moveQueue.push(down);
     }
 }
-
-
 
 let collisionDetection = () => {
     let head = snake[0];
@@ -182,6 +189,8 @@ function main() {
                 clearScreen();
                 drawBoard();
                 drawFood();
+                if (moveQueue[0]) moveQueue[0]();
+                moveQueue.shift();
                 advanceSnake();
                 drawSnake();            
         }
