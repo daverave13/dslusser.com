@@ -2,18 +2,6 @@ function sleep(ms) {
       return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-/* $(".thumbnail-image").hover(function() {
-  $(".thumbnail-title").css("background-color", "white");
-}, function() {
-  $(".thumbnail-title").css("background-color", "rgba(150, 150, 150, 0.9)");
-}); */
-
-/* $(".thumbnail-image").hover(function(){
-    $(".thumbnail-title").css("background-color", "yellow");
-    }, function(){
-    $(".thumbnail-title").css("background-color", "pink");
-}); */
-
 function updateGreeting() {
   var d = new Date();
   var h = d.getHours();
@@ -172,7 +160,7 @@ let loadLink = () => {
     title: "Netflix"
   },
   {
-    link: "https://evernote.com",
+    link: "https://www.evernote.com/client/web?login=true",
     imgSrc: "img/evernote-logo.png",
     alt: "Evernote",
     title: "Evernote"
