@@ -30,14 +30,15 @@ async function fetchSteps() {
     })
     .then(response => response.json())
     .then(json => {
+      console.log(json);
       // let stepLog = JSON.parse(json);
       // console.log(json["activities-steps"]);
       // let top = stepLog.length;
       // let bottom = top - 7;
-      for (let i = top; i >= bottom; i--) {
-        // $('#steps-list').append(`<li>${stepLog[i]['dateTime']} - ${stepLog[i]['value']}</li>`)
-        console.log(json);
-      }
+      // for (let i = top; i >= bottom; i--) {
+      //   // $('#steps-list').append(`<li>${stepLog[i]['dateTime']} - ${stepLog[i]['value']}</li>`)
+      //   console.log(json);
+      // }
     });
 }
 
