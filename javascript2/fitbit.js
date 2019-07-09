@@ -34,6 +34,10 @@ async function fetchSteps() {
         stepArr.push(stepLog[i].value);
         dateArr.push(stepLog[i].dateTime);
       }
+
+      let stepAvg = stepArr.reduce((x,y) => x+y);
+      console.log(stepAvg);
+      
         
       var ctx = document.getElementById('myChart').getContext('2d');
       var myChart = new Chart(ctx, {
