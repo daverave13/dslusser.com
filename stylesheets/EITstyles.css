@@ -18,5 +18,5 @@
 }
 
 #step-readout {
-  position: relative;
+  display: block;
 }
