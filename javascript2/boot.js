@@ -29,7 +29,8 @@ async function fetchSteps() {
     .then(json => {
       let stepLog = json['activities-steps'];
       for (let i = 30; i >= 24; i--) {
-        $('#steps-list').append(`<li>${stepLog[i].dateTime} | ${stepLog[i].value}</li>`);
+        if (stepLog[i].value > 0) $('#steps-list').append(`<li class='green'>${stepLog[i].dateTime} | ${stepLog[i].value}</li>`);
+        if (stepLog[i].value === 0) $('#steps-list').append(`<li class='red'>${stepLog[i].dateTime} | ${stepLog[i].value}</li>`);
       }
     });
 }

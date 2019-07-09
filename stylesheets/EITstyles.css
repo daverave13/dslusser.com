@@ -4,6 +4,14 @@
   font-family: sans-serif;
 }
 
+.green {
+  color: rgb(10, 226, 10);
+}
+
+.red {
+  color: red;
+}
+
 #steps-wrapper {
   position: absolute;
   text-align: center;
