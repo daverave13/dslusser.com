@@ -47,7 +47,7 @@ async function fetchSteps() {
       } else {
         $('#step-readout').html(`Holy shit man, ${Math.floor(stepAvg)} steps per day! This is... beyond science.`);
       }
-      console.log(stepArr[0]+stepArr[6]);
+      console.log(parseInt(stepArr[0],10)+parseInt(stepArr[6],10));
         
       var ctx = document.getElementById('myChart').getContext('2d');
       var myChart = new Chart(ctx, {
