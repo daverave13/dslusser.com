@@ -30,11 +30,11 @@ async function fetchBMI(strDate) {
     })
     .then(response => response.json())
     .then(json => {
-      let top = json.activity-log-steps.length;
+      let json = json["activities-log-steps"];
+      let top = json.length;
       let bottom = top - 7;
-      let stepCount = json;
       for (let i = end; i >= bottom; i--) {
-        console.log(json.activity-steps[i]);
+        console.log(json[i]);
       }
     });
 }
