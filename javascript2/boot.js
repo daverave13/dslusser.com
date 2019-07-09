@@ -28,22 +28,21 @@ async function fetchSteps() {
     .then(response => response.json())
     .then(json => {
       let stepLog = json['activities-steps'];
+      let stepArr = [];
+      let dateArr = [];
       for (let i = 30; i >= 24; i--) {
-        if (stepLog[i].value > 0) $('#steps-list').append(`<li class='green'><h4>${stepLog[i].dateTime} | ${stepLog[i].value}</h4></li>`);
-        if (stepLog[i].value == 0) $('#steps-list').append(`<li class='red'><h4>${stepLog[i].dateTime} | ${stepLog[i].value}</h4></li>`);
-        
-        ${stepLog[i].dateTime}
-        ${stepLog[i].}
+        stepArr.push(stepLog[i].value);
+        dateArr.push(stepLog[i].dateTime);
       }
         
       var ctx = document.getElementById('myChart').getContext('2d');
       var myChart = new Chart(ctx, {
           type: 'bar',
           data: {
-              labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+              labels: [...dateArr],
               datasets: [{
                   label: '# of Votes',
-                  data: [12, 19, 3, 5, 2, 3],
+                  data: [...stepArr],
                   backgroundColor: [
                       'rgba(255, 99, 132, 0.2)',
                       'rgba(54, 162, 235, 0.2)',
