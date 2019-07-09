@@ -30,7 +30,14 @@ async function fetchSteps() {
     })
     .then(response => response.json())
     .then(json => {
-      console.log(json['activities-steps']);
+      // console.log(json['activities-steps']);
+      for (day of json['activities-steps']) {
+        console.log(day);
+      }
+
+
+
+
       // let stepLog = JSON.parse(json);
       // console.log(json["activities-steps"]);
       // let top = stepLog.length;
