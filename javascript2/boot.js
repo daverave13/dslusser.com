@@ -4,6 +4,7 @@ var fitbitAccessToken;
 if (!window.location.hash) {
   window.location.replace('https://www.fitbit.com/oauth2/authorize?response_type=token&client_id=22DFML&redirect_uri=https%3A%2F%2Fwww.dslusser.com%2FEIT.html&scope=activity%20nutrition%20heartrate%20location%20nutrition%20profile%20settings%20sleep%20social%20weight');
 } else {
+  //honestly no clue what this function is up to, I just copied this part from someone
   var fragmentQueryParameters = {};
   window.location.hash.slice(1).replace(
     new RegExp("([^?=&]+)(=([^&]*))?", "g"),
@@ -16,8 +17,8 @@ if (!window.location.hash) {
 }
 
 let respArray = [];
-async function fetchBMI(strDate, i) {
-  var url = 'https://api.fitbit.com/1/user/-/body/log/weight/date/' + strDate + '.json';
+async function fetchBMI(strDate) {
+  var url = 'https://api.fitbit.com/1/user/-/activities/steps/date/' + strDate + '.json';
   var bearer = 'Bearer ' + fitbitAccessToken;
   const response = fetch(url, {
       method: 'GET',
@@ -28,7 +29,7 @@ async function fetchBMI(strDate, i) {
       }
     })
     .then(response => response.json())
-    .then(json => respArray[i] = json.weight[0].bmi);
+    .then(json => console.log(json));
 }
 
 function updateBMIHeader(strDate) {
