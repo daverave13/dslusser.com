@@ -31,14 +31,17 @@ async function fetchSteps() {
     .then(response => response.json())
     .then(json => {
 
-      // for (day of json['activities-steps']) {
-      //   console.log(day.value);
-      //   console.log(daysAgo(7));
-      //   $('#steps-list').append(`<li>${day.dateTime} | ${day.value}</li>`);
-      // }
+      for (day of json['activities-steps']) {
+        console.log(day.value);
+        console.log(daysAgo(7));
+        $('#steps-list').append(`<li>${day.dateTime} | ${day.value}</li>`);
+      }
 
       let stepLog = json['activities-steps'];
-      console.log(stepLog);
+      for (let i = 31; i >= 24; i--) {
+        // $('#steps-list').append(`<li>${day.dateTime} | ${day.value}</li>`);
+        console.log(json['activities-steps'][30]);
+      }
 
 
 
