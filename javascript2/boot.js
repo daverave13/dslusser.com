@@ -17,7 +17,7 @@ if (!window.location.hash) {
 }
 
 let respArray = [];
-async function fetchsteps() {
+async function fetchSteps() {
   var url = 'https://api.fitbit.com/1/user/-/activities/steps/date/today/1m.json';
   var bearer = 'Bearer ' + fitbitAccessToken;
   const response = fetch(url, {
@@ -56,4 +56,4 @@ function daysAgo(num) {
   }).call(new Date)).toISOString().split('T')[0];
 }
 
-fetchBMI();
+fetchSteps();
