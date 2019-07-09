@@ -35,17 +35,17 @@ async function fetchSteps() {
         dateArr.push(stepLog[i].dateTime);
       }
 
-      let stepAvg = stepArr.reduce((x,y) => x+y)/stepArr.length;
+      let stepAvg = 20000;//stepArr.reduce((x,y) => x+y)/stepArr.length;
       if (stepAvg < 5000) {
-        $('#step-readout').html(`Wow, only ${Math.floor(stepAvg)} steps per day. Get moving!`);
+        $('#step-readout').html(`Average steps/day: ${Math.floor(stepAvg)}. Get moving!`);
       } else if (stepAvg < 6500) {
-        $('#step-readout').html(`${Math.floor(stepAvg)} steps per day. Not bad!`);
+        $('#step-readout').html(`Average steps/day: ${Math.floor(stepAvg)}. Not bad!`);
       } else if (stepAvg < 10000) {
-        $('#step-readout').html(`${Math.floor(stepAvg)} steps per day. You're so close!`);
+        $('#step-readout').html(`Average steps/day: ${Math.floor(stepAvg)}. You're so close!`);
       } else if (stepAvg < 15000) {
-        $('#step-readout').html(`${Math.floor(stepAvg)} steps per day! You're killing it!`);
+        $('#step-readout').html(`Average steps/day: ${Math.floor(stepAvg)}! You're killing it!`);
       } else {
-        $('#step-readout').html(`Holy shit, ${Math.floor(stepAvg)} steps per day! This is... beyond science.`);
+        $('#step-readout').html(`Holy shit man, ${Math.floor(stepAvg)} steps per day! This is... beyond science.`);
       }
         
       var ctx = document.getElementById('myChart').getContext('2d');
