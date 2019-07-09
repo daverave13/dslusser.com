@@ -34,7 +34,7 @@ async function fetchSteps() {
       for (day of json['activities-steps']) {
         console.log(day.value);
         console.log(daysAgo(7));
-        $('#steps-list').append(`${day.dateTime} | ${day.value}`);
+        $('#steps-list').append(`<li>${day.dateTime} | ${day.value}</li>`);
       }
 
       
