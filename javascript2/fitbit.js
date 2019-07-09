@@ -39,10 +39,10 @@ async function fetchSteps() {
       var myChart = new Chart(ctx, {
           type: 'bar',
           data: {
-              labels: [...dateArr],
+              labels: [...dateArr].reverse(),
               datasets: [{
                   label: '# of steps',
-                  data: [...stepArr],
+                  data: [...stepArr].reverse(),
                   backgroundColor: [
                       'red',
                       'orange',
