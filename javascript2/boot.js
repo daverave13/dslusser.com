@@ -30,35 +30,11 @@ async function fetchSteps() {
     })
     .then(response => response.json())
     .then(json => {
-
-      // for (day of json['activities-steps']) {
-      //   console.log(day.value);
-      //   console.log(daysAgo(7));
-      //   $('#steps-list').append(`<li>${day.dateTime} | ${day.value}</li>`);
-      // }
-
       let stepLog = json['activities-steps'];
       for (let i = 30; i >= 24; i--) {
         $('#steps-list').append(`<li>${stepLog[i].dateTime} | ${stepLog[i].value}</li>`);
-        // console.log(json['activities-steps'][30]);
       }
     });
-}
-
-function updateBMIHeader(strDate) {
-  $("#bmi-header").append("<th>" + strDate.substr(5) + "</th>");
-}
-
-function updateBMIData(numDaysAgo, arr) {
-  console.log(`<td>${arr[numDaysAgo]}</td>`);
-  $("#bmi").append(`<td>${arr[numDaysAgo]}</td>`)
-}
-
-function daysAgo(num) {
-  return ((function() {
-    this.setDate(this.getDate() - num);
-    return this
-  }).call(new Date)).toISOString().split('T')[0];
 }
 
 fetchSteps();
