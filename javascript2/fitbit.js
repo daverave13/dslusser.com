@@ -44,7 +44,7 @@ async function fetchSteps() {
                   label: '# of steps',
                   data: [...stepArr].reverse(),
                   backgroundColor: [
-                    'lightred',
+                    'light-red',
                     'lightorange',
                     'lightyellow',
                     'lightgreen',
