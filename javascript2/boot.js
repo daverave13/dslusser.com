@@ -2,7 +2,7 @@
 var fitbitAccessToken;
 
 if (!window.location.hash) {
-  window.location.replace('https://www.fitbit.com/oauth2/authorize?response_type=token&client_id=22DFML&redirect_uri=https%3A%2F%2Fwww.dslusser.com%2FEIT.html&scope=activity%20nutrition%20heartrate%20location%20nutrition%20profile%20settings%20sleep%20social%20weight');
+  window.location.replace('https://www.fitbit.com/oauth4/authorize?response_type=token&client_id=22DFML&redirect_uri=https%3A%2F%2Fwww.dslusser.com%2FEIT.html&scope=activity%20nutrition%20heartrate%20location%20nutrition%20profile%20settings%20sleep%20social%20weight');
 } else {
   var fragmentQueryParameters = {};
   window.location.hash.slice(1).replace(
@@ -29,8 +29,8 @@ async function fetchSteps() {
     .then(json => {
       let stepLog = json['activities-steps'];
       for (let i = 30; i >= 24; i--) {
-        if (stepLog[i].value > 0) $('#steps-list').append(`<li class='green'><h2>${stepLog[i].dateTime} | ${stepLog[i].value}</h2></li>`);
-        if (stepLog[i].value == 0) $('#steps-list').append(`<li class='red'><h2>${stepLog[i].dateTime} | ${stepLog[i].value}</h2></li>`);
+        if (stepLog[i].value > 0) $('#steps-list').append(`<li class='green'><h4>${stepLog[i].dateTime} | ${stepLog[i].value}</h4></li>`);
+        if (stepLog[i].value == 0) $('#steps-list').append(`<li class='red'><h4>${stepLog[i].dateTime} | ${stepLog[i].value}</h4></li>`);
       }
     });
 }
