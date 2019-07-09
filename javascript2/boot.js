@@ -19,7 +19,7 @@ if (!window.location.hash) {
 
 let respArray = [];
 async function fetchBMI(strDate) {
-  var url = 'https://api.fitbit.com/1/user/-/activities/steps/date/' + strDate + '.json';
+  var url = 'https://api.fitbit.com/1/user/-/activities/tracker/steps/date/' + strDate + '.json';
   var bearer = 'Bearer ' + fitbitAccessToken;
   const response = fetch(url, {
       method: 'GET',
