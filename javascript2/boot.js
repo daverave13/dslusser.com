@@ -1,5 +1,6 @@
 // If user hasn't authed with Fitbit, redirect to Fitbit OAuth Implicit Grant Flow
 var fitbitAccessToken;
+let responseGlobal = '';
 
 if (!window.location.hash) {
   window.location.replace('https://www.fitbit.com/oauth2/authorize?response_type=token&client_id=22DFML&redirect_uri=https%3A%2F%2Fwww.dslusser.com%2FEIT.html&scope=activity%20nutrition%20heartrate%20location%20nutrition%20profile%20settings%20sleep%20social%20weight');
@@ -29,7 +30,10 @@ async function fetchBMI(strDate) {
       }
     })
     .then(response => response.json())
-    .then(json => console.log(json));
+    .then(json => {
+      // console.log(json);
+      responseGlobal = json;
+    });
 }
 
 function updateBMIHeader(strDate) {
@@ -54,4 +58,4 @@ for (var i = 6; i >= 0; i--) {
   //updateBMIData(i);
 }
 
-console.log(respArray[0]);
+console.log(responseGlobal);
