@@ -32,8 +32,10 @@ async function fetchSteps() {
     .then(json => {
       // console.log(json['activities-steps']);
       for (day of json['activities-steps']) {
-        console.log(day);
+        console.log(day.value);
       }
+
+      
 
 
 
