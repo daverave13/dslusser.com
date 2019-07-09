@@ -38,7 +38,7 @@ async function fetchSteps() {
       // }
 
       let stepLog = json['activities-steps'];
-      for (let i = 31; i >= 24; i--) {
+      for (let i = 30; i >= 24; i--) {
         $('#steps-list').append(`<li>${stepLog[i].dateTime} | ${stepLog[i].value}</li>`);
         // console.log(json['activities-steps'][30]);
       }
