@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'sans serif';
+}
+
 #steps-wrapper {
   position: absolute;
   text-align: center;
