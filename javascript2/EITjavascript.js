@@ -127,8 +127,8 @@ async function colorChange() {
   }
 }
 
-function funcStart() {
-  daysUntil(03, 16, 2019, 'Europe');
-  daysUntil(00, 01, 2022, 'Student Loans Paid Off');
-  colorChange();
-}
+// function funcStart() {
+//   daysUntil(03, 16, 2019, 'Europe');
+//   daysUntil(00, 01, 2022, 'Student Loans Paid Off');
+//   colorChange();
+// }

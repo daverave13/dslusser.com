@@ -5,7 +5,6 @@ let responseGlobal = '';
 if (!window.location.hash) {
   window.location.replace('https://www.fitbit.com/oauth2/authorize?response_type=token&client_id=22DFML&redirect_uri=https%3A%2F%2Fwww.dslusser.com%2FEIT.html&scope=activity%20nutrition%20heartrate%20location%20nutrition%20profile%20settings%20sleep%20social%20weight');
 } else {
-  //honestly no clue what this function is up to, I just copied this part from someone
   var fragmentQueryParameters = {};
   window.location.hash.slice(1).replace(
     new RegExp("([^?=&]+)(=([^&]*))?", "g"),
@@ -31,9 +30,12 @@ async function fetchBMI(strDate) {
     })
     .then(response => response.json())
     .then(json => {
+      let top = json[0].length;
+      let bottom = top - 7;
       let stepCount = json;
-      console.log(stepCount);
-      
+      for (let i = end; i >= bottom; i--) {
+        console.log(json[0][i]);
+      }
     });
 }
 
