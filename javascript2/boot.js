@@ -34,7 +34,7 @@ async function fetchBMI(strDate) {
       // console.log(json["activities-steps"]);
       let top = stepLog.length;
       let bottom = top - 7;
-      for (let i = end; i >= bottom; i--) {
+      for (let i = top; i >= bottom; i--) {
         console.log(stepLog[i]);
       }
     });
