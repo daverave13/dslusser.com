@@ -62,7 +62,8 @@ async function fetchSteps() {
                     'rgb(226, 235, 47)',
                     'rgb(48, 235, 45)',
                     'rgb(45, 64, 235)',
-                    'rgb(196, 37, 167)'
+                    'rgb(196, 37, 167)',
+                    'rgb(255, 97, 113)'
                   ],
                   borderColor: [
                     'red',
@@ -70,7 +71,8 @@ async function fetchSteps() {
                     'yellow',
                     'green',
                     'blue',
-                    'purple'
+                    'purple',
+                    'rgb(135, 51, 60)'
                   ],
                   borderWidth: 1
               }]
