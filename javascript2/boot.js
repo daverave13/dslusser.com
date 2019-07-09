@@ -33,6 +33,8 @@ async function fetchSteps() {
       // console.log(json['activities-steps']);
       for (day of json['activities-steps']) {
         console.log(day.value);
+        console.log(daysAgo(7));
+
       }
 
       
