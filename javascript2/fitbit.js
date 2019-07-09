@@ -35,7 +35,7 @@ async function fetchSteps() {
         dateArr.push(stepLog[i].dateTime);
       }
 
-      let stepAvg = 20000;//stepArr.reduce((x,y) => x+y)/stepArr.length;
+      let stepAvg = stepArr.reduce((x,y) => x+y)/stepArr.length;
       if (stepAvg < 5000) {
         $('#step-readout').html(`Average steps/day: ${Math.floor(stepAvg)}. Get moving!`);
       } else if (stepAvg < 6500) {
@@ -45,7 +45,7 @@ async function fetchSteps() {
       } else if (stepAvg < 15000) {
         $('#step-readout').html(`Average steps/day: ${Math.floor(stepAvg)}! You're killing it!`);
       } else {
-        $('#step-readout').html(`Holy shit man, ${Math.floor(stepAvg)} steps per day! This is... beyond science.asdadddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd`);
+        $('#step-readout').html(`Holy shit man, ${Math.floor(stepAvg)} steps per day! This is... beyond science.`);
       }
         
       var ctx = document.getElementById('myChart').getContext('2d');
