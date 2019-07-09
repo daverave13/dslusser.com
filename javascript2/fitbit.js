@@ -36,6 +36,7 @@ async function fetchSteps() {
       }
 
       let stepAvg = stepArr.reduce((x,y) => x+y)/stepArr.length;
+      console.log(stepAvg);
       
       
         
