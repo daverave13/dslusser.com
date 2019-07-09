@@ -36,7 +36,7 @@ async function fetchSteps() {
       let bottom = top - 7;
       for (let i = top; i >= bottom; i--) {
         // $('#steps-list').append(`<li>${stepLog[i]['dateTime']} - ${stepLog[i]['value']}</li>`)
-        console.log(`${JSON.stringify(stepLog)} `);
+        console.log(`${JSON.stringify(stepLog)['dateTime']} `);
       }
     });
 }
