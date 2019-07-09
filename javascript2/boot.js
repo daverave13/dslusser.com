@@ -1,6 +1,5 @@
 // If user hasn't authed with Fitbit, redirect to Fitbit OAuth Implicit Grant Flow
 var fitbitAccessToken;
-let responseGlobal = '';
 
 if (!window.location.hash) {
   window.location.replace('https://www.fitbit.com/oauth2/authorize?response_type=token&client_id=22DFML&redirect_uri=https%3A%2F%2Fwww.dslusser.com%2FEIT.html&scope=activity%20nutrition%20heartrate%20location%20nutrition%20profile%20settings%20sleep%20social%20weight');
