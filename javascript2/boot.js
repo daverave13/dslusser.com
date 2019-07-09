@@ -49,7 +49,7 @@ async function fetchSteps() {
                       'yellow',
                       'green',
                       'blue',
-                      'orange'
+                      'purple'
                   ],
                   borderColor: [
                     'lightred',
@@ -57,7 +57,7 @@ async function fetchSteps() {
                     'lightyellow',
                     'lightgreen',
                     'lightblue',
-                    'purple'
+                    'lightpurple'
                   ],
                   borderWidth: 1
               }]
