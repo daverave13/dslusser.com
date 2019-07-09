@@ -41,7 +41,7 @@ async function fetchSteps() {
           data: {
               labels: [...dateArr],
               datasets: [{
-                  label: '# of Votes',
+                  label: '# of steps',
                   data: [...stepArr],
                   backgroundColor: [
                       'red',
@@ -49,7 +49,7 @@ async function fetchSteps() {
                       'yellow',
                       'green',
                       'blue',
-                      'lightpurple'
+                      'orange'
                   ],
                   borderColor: [
                     'lightred',
