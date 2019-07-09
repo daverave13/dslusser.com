@@ -45,7 +45,7 @@ async function fetchSteps() {
       } else if (stepAvg < 15000) {
         $('#step-readout').html(`Average steps/day: ${Math.floor(stepAvg)}! You're killing it!`);
       } else {
-        $('#step-readout').html(`Holy shit man, ${Math.floor(stepAvg)} steps per day! This is... beyond science.`);
+        $('#step-readout').html(`Holy shit man, ${Math.floor(stepAvg)} steps per day! This is... beyond science.asdadddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd`);
       }
         
       var ctx = document.getElementById('myChart').getContext('2d');
