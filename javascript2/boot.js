@@ -28,15 +28,15 @@ async function fetchSteps() {
         'Content-Type': 'application/json'
       }
     })
-    .then(response => json.parse(response))
+    .then(response => response.json())
     .then(json => {
-      // let stepLog = json["activities-steps"];
+      let stepLog = JSON.parse(json);
       // console.log(json["activities-steps"]);
       let top = stepLog.length;
       let bottom = top - 7;
       for (let i = top; i >= bottom; i--) {
         // $('#steps-list').append(`<li>${stepLog[i]['dateTime']} - ${stepLog[i]['value']}</li>`)
-        console.log(json);
+        console.log(stepLog);
       }
     });
 }
