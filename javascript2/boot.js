@@ -11,11 +11,9 @@ if (!window.location.hash) {
       fragmentQueryParameters[$1] = $3;
     }
   );
-
   fitbitAccessToken = fragmentQueryParameters.access_token;
 }
 
-let respArray = [];
 async function fetchSteps() {
   var url = 'https://api.fitbit.com/1/user/-/activities/steps/date/today/1m.json';
   var bearer = 'Bearer ' + fitbitAccessToken;
