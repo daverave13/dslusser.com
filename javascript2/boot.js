@@ -31,7 +31,7 @@ async function fetchBMI(strDate) {
     })
     .then(response => response.json())
     .then(json => {
-      let stepCount = json.activites;
+      let stepCount = json;
       console.log(stepCount);
       
     });
