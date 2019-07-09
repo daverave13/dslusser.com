@@ -30,11 +30,11 @@ async function fetchSteps() {
     })
     .then(response => response.json())
     .then(json => {
-      // console.log(json['activities-steps']);
+
       for (day of json['activities-steps']) {
         console.log(day.value);
         console.log(daysAgo(7));
-
+        $('#steps-list').append(`${day.dateTime} | ${day.value}`);
       }
 
       
