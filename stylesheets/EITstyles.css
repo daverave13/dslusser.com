@@ -4,6 +4,10 @@
   font-family: sans-serif;
 }
 
+body {
+  background-color: beige;
+}
+
 #step-readout {
   margin: 15px 0 15px 15px;
 }
