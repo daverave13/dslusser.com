@@ -5,9 +5,10 @@
 }
 
 #step-readout {
-  margin: 15px 0 15px 0;
+  margin: 15px 15px 15px 0;
 }
 
 #chart-wrapper {
   width: 20%;
+  margin-left: 15px;
 }
