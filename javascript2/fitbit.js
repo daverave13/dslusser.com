@@ -27,6 +27,8 @@ async function fetchSteps() {
     })
     .then(response => response.json())
     .then(json => {
+      console.log(json);
+      
       let stepLog = json['activities-steps'];
       let stepArr = [];
       let dateArr = [];
