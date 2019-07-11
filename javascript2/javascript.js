@@ -56,7 +56,7 @@ function updateGreeting() {
   else {
     var holiday = "";
   }
-  $("#greeting").html('An imperfect plan violently executed is better than a perfect plan never started.');
+  $("#greeting").html(greeting);
   $("#holiday").html(holiday);
 }
 
