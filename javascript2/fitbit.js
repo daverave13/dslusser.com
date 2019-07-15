@@ -54,15 +54,7 @@ async function fetchSteps() {
           data: {
               labels: [...dateArr].reverse(),
               datasets: [{
-                  label: [
-                    '# of steps',
-                    '# of steps',
-                    '# of steps',
-                    '# of steps',
-                    '# of steps',
-                    '# of steps',
-                    '# of steps'
-                  ],
+                  label: '# of steps',
                   data: [...stepArr].reverse(),
                   backgroundColor: [
                     'rgb(235, 47, 47)',
