@@ -27,8 +27,6 @@ async function fetchSteps() {
     })
     .then(response => response.json())
     .then(json => {
-      console.log(json);
-      
       let stepLog = json['activities-steps'];
       let stepArr = [];
       let dateArr = [];
@@ -37,7 +35,7 @@ async function fetchSteps() {
         dateArr.push(stepLog[i].dateTime);
       }
 
-      let stepAvg = (stepArr.map(x => parseInt(x,10))).reduce((a,b) => a+b,0)/stepArr.length;
+      let stepAvg = ([...stepArr].map(x => parseInt(x,10))).reduce((a,b) => a+b,0)/stepArr.length;
       console.log(typeof stepArr);
       if (stepAvg < 5000) {
         $('#step-readout').html(`Average steps/day: ${Math.floor(stepAvg)}. Get moving!`);
@@ -57,6 +55,7 @@ async function fetchSteps() {
           data: {
               labels: [...dateArr].reverse(),
               datasets: [{
+                  label: '# of steps',
                   data: [...stepArr].reverse(),
                   backgroundColor: [
                     'rgb(235, 47, 47)',
