@@ -35,8 +35,8 @@ async function fetchSteps() {
         dateArr.push(stepLog[i].dateTime);
       }
 
-      let stepAvg = ([...stepArr].slice(1,6).map(x => parseInt(x,10))).reduce((a,b) => a+b,0)/stepArr.length;
-      console.log(stepArr.length);
+      let stepAvg = ([...stepArr].slice(1,6).map(x => parseInt(x,10))).reduce((a,b) => a+b,0)/[...stepArr].slice(1,6).length;
+      console.log([...stepArr].slice(1,6).length);
       if (stepAvg < 5000) {
         $('#step-readout').html(`Average steps/day: ${Math.floor(stepAvg)}. Get moving!`);
       } else if (stepAvg < 6500) {
