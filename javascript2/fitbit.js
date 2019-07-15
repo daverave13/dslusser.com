@@ -28,7 +28,7 @@ async function fetchSteps() {
     .then(response => response.json())
     .then(json => {
       let stepLog = json['activities-steps'];
-      let stepArr = [];
+      let stepArr = []; 
       let dateArr = [];
       for (let i = 30; i >= 24; i--) {
         stepArr.push(stepLog[i].value);
@@ -54,7 +54,15 @@ async function fetchSteps() {
           data: {
               labels: [...dateArr].reverse(),
               datasets: [{
-                  label: '# of steps',
+                  label: [
+                    '# of steps',
+                    '# of steps',
+                    '# of steps',
+                    '# of steps',
+                    '# of steps',
+                    '# of steps',
+                    '# of steps'
+                  ],
                   data: [...stepArr].reverse(),
                   backgroundColor: [
                     'rgb(235, 47, 47)',
