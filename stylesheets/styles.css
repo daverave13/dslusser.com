@@ -40,6 +40,10 @@ a:active {
   font-size: 50px;
 }
 
+#greeting {
+  animation: moveInLeft 1.5s;
+}
+
 .resume-header {
   color: white;
   display: flex;
@@ -50,7 +54,6 @@ a:active {
 
 header {
   background-color:rgba(216, 216, 216, 0.5);
-  background-width: 100%;
   padding: 20px;
   border-bottom: solid 3px rgb(216, 216, 216);
 }
@@ -165,4 +168,20 @@ img:hover {
 
 .manh-uat span {
   background-color: green;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  50% {
+    transform: translateX(10px);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }
