@@ -42,6 +42,7 @@ a:active {
 
 #greeting {
   animation: moveInLeft 1.5s;
+  animation-fill-mode: backwards;
 }
 
 .resume-header {
