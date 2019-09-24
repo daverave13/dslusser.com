@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,EACI,qBACJ,CAEA,oBACI,YAAa,CACb,4BACJ,CAEA,YACI,iBACJ","file":"main.77886196.chunk.css","sourcesContent":["* {\r\n    font-family: 'Helvetica';\r\n}\r\n\r\n.componentContainer {\r\n    display: flex;\r\n    justify-content: space-around;\r\n}\r\n\r\n.centerText {\r\n    text-align: center;\r\n}\r\n"]}
